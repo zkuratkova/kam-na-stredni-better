@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  font-family: 'Montserrat', sans-serif;
+  color: #232c33;
+  line-height: 1.6;
+}
+
+.lesson,
+.home {
+  text-align: center;
+}
+
+.summary__title--main,
+.lesson__title--main,
+.home__title--main {
+  color: #ee003c;
+}
+
+.contact-main,
+.worksheet-download,
+.link-lesson {
+  background-color: #d5dfe5;
+  margin: 2.5rem 0;
+  padding: 0.5rem;
+}
+
+.worksheet-download__text,
+.link-lesson__text {
+  padding: 0 1rem;
+}
+
+.video__container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  margin-bottom: 1rem;
+}
+
+.video__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.intro__title--underlined::after,
+.contacts__title--underlined::after,
+.lesson__title--underlined::after {
+  content: '';
+  display: block;
+  background-color: #ee003c;
+  width: 75%;
+  height: 0.3rem;
+  margin: 0.5rem 0;
+}
+
+.informations__title--underlined-right::after,
+.lesson__title--underlined-right::after {
+  content: '';
+  display: block;
+  background-color: #ee003c;
+  width: 75%;
+  height: 0.3rem;
+  margin: 0.5rem 25%;
+}
+
+.worksheet-download {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.quiz {
+  background-color: #d5dfe5;
+  padding: 0.5rem;
+  margin: 4rem 0;
+}
+
+.quiz--right {
+  background-color: #0c7c5865;
+}
+
+.quiz--wrong {
+  background-color: #ee003b59;
+}
+
+.quiz__text {
+  padding: 0.4rem;
+  margin: 0 0 1rem 0;
+  border-radius: 5px;
+}
+
+.quiz__text--right {
+  background-color: #0c7c5865;
+}
+
+.quiz__text--wrong {
+  background-color: #ee003ba1;
+}
+
+.quiz__question {
+  font-weight: 800;
+}
+
+.quiz__answer,
+.quiz__btn {
+  text-align: left;
+  padding: 0.7rem 1rem;
+}
+
+.el_btn,
+.btn {
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: #ee003c;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn--secondary {
+  background-color: #ffffff;
+  color: #ee003c;
+}
+
+.btn--right {
+  background-color: #0c7c58;
+}
+
+.el_btn:hover,
+.btn:hover {
+  background-color: #c40131;
+}
+
+.btn--secondary:hover {
+  background-color: #d5dfe5;
+}
+
+.btn--right:hover {
+  background-color: #0b6448;
+}
+
+.footer {
+  text-align: center;
+  background-color: #ee003c;
+  color: white;
+  padding: 0.5rem 0px 0.5rem 0px;
+}
+
+.contact {
+  margin: 4rem 0;
+}
+
+.contact__img {
+  width: 100%;
+}
+
+.contact__mail,
+.contact__phone {
+  font-weight: 600;
+}
+
+.card {
+  background-color: #d5dfe5;
+  color: #000000;
+  padding: 1.5rem;
+  margin: 1rem 0;
+}
+
+.summary__title {
+  text-align: center;
+}
+
+.card__number {
+  font-size: 4rem;
+  color: #175676;
+}
+
+.container--card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container--summary {
+  margin-bottom: 14rem;
+}
+
+@media screen and (min-width: 600px) {
+  .quiz__text {
+    display: inline-block;
+    margin: 0 2rem 0 0;
+  }
+
+  .lesson,
+  .home,
+  .summary {
+    padding: 0 2rem;
+  }
+
+  .contacts__text,
+  .intro__text,
+  .informations__text,
+  .lesson__text,
+  .home__text {
+    text-align: left;
+  }
+
+  .worksheet-download__text {
+    text-align: left;
+  }
+
+  .container--contact {
+    display: flex;
+  }
+
+  .column--contact {
+    flex: 0 0 50%;
+  }
+
+  .contact__text {
+    margin: 0;
+    padding: 0 1.5rem;
+    text-align: left;
+  }
+
+  .contact__mail,
+  .contact__phone {
+    padding: 0 1.5rem;
+    text-align: left;
+  }
+
+  .worksheet-download {
+    margin-top: 2rem;
+  }
+
+  .card {
+    margin: 0;
+  }
+
+  .container--summary {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .wrapper {
+    width: 900px;
+    margin: 0 auto;
+  }
+
+  .container--summary {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
