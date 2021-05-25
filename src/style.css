@@ -148,26 +148,6 @@
   background-color: #0b6448;
 }
 
-.footer {
-  text-align: center;
-  background-color: #ee003c;
-  color: white;
-  padding: 0.5rem 0px 0.5rem 0px;
-}
-
-.contact {
-  margin: 4rem 0;
-}
-
-.contact__img {
-  width: 100%;
-}
-
-.contact__mail,
-.contact__phone {
-  font-weight: 600;
-}
-
 .card {
   background-color: #d5dfe5;
   color: #000000;
@@ -223,18 +203,6 @@
 
   .column--contact {
     flex: 0 0 50%;
-  }
-
-  .contact__text {
-    margin: 0;
-    padding: 0 1.5rem;
-    text-align: left;
-  }
-
-  .contact__mail,
-  .contact__phone {
-    padding: 0 1.5rem;
-    text-align: left;
   }
 
   .worksheet-download {

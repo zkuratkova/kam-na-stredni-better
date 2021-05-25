@@ -2,6 +2,8 @@ import React from 'react';
 import { render } from 'react-dom';
 import './style.css';
 import Header from './components/Header';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 const App = () => (
   <div className="wrapper">
@@ -63,69 +65,21 @@ const App = () => (
         >
           Vyhledat termín konzultace online
         </a>
-        <div className="contact">
-          <h3 className="contact__title">Václav Flíček</h3>
-          <div className="container--contact">
-            <div className="column--contact">
-              <img
-                className="contact__img"
-                src="images/Václav-Flíček_profil-300x200.jpg"
-                alt="Václav Flíček"
-              />
-            </div>
-            <div className="column--contact">
-              <p className="contact__text">
-                Miluje příběhy, a díky tomu vystudoval filmovou školu. Schopnost
-                vyprávění maximálně zúročuje hlavně při přípravě her a audio
-                příběhů. Zajímá se o propojování lidí. Uvědomil si, v čem
-                spočívá význam slova spolupráce a těší se z pokroků, které se
-                díky tomu dějí. Velkou radost mu dělá podporující manželka a dvě
-                krásné dcerky.
-              </p>
-              <p className="contact__mail">e-mail: vflicek@probud.cz</p>
-            </div>
-          </div>
-        </div>
-        <div className="contact">
-          <h3 className="contact__title">Zdeněk Sklenář</h3>
-          <div className="container--contact">
-            <div className="column--contact">
-              <img
-                className="contact__img"
-                src="images/Zdeněk-Sklenář-1.jpg"
-                alt="Zdeněk Sklenář"
-              />
-            </div>
-            <div className="column--contact">
-              <p className="contact__text">
-                Vystupování na veřejnosti je pro něj přirozené stejně jako práce
-                s dětmi. Od začátku vzal projekt za svůj a vkládá do něj
-                obrovské množství energie. Utvrzuje se v přesvědčení, že
-                budoucnost našich dětí je závislá na otevřené spolupráci s nimi,
-                dostatečném prostoru a respektu. S manželkou Jitkou vychovává
-                dva zvídavé, zdravé kluky.
-              </p>
-              <p className="contact__mail">e-mail: zsklenar@probud.cz</p>
-              <p className="contact__phone">tel: 777586069</p>
-            </div>
-          </div>
-          <div className="contact-main">
-            <h3 className="contact__title">Projekt Budoucnost z.s.</h3>
-            <p className="contact__info">
-              Jirsíkova 348/17 <br />
-              373 72, Lišov <br />
-              IČ: 08266972 <br />
-              Transparentní účet: 2701720739 / 2010 <br />
-              Spolek zapsaný u Krajského soudu v Českých Budějovicích od
-              9.července 2019.
-            </p>
-          </div>
+        <Contact />
+        <div className="contact-main">
+          <h3 className="contact__title">Projekt Budoucnost z.s.</h3>
+          <p className="contact__info">
+            Jirsíkova 348/17 <br />
+            373 72, Lišov <br />
+            IČ: 08266972 <br />
+            Transparentní účet: 2701720739 / 2010 <br />
+            Spolek zapsaný u Krajského soudu v Českých Budějovicích od
+            9.července 2019.
+          </p>
         </div>
       </section>
     </main>
-    <footer className="footer">
-      Copyright © Projekt Budoucnost, z.s. 2021
-    </footer>
+    <Footer />
   </div>
 );
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo_Budouctnost from './Logo_Budouctnost_pruhledne_barevne.svg';
+import Logo_Budoucnost from './Logo_Budouctnost_pruhledne_barevne.svg';
 import Nav from '../Nav';
 import './style.css';
 
@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container">
         <img
           className="header__logo"
-          src={Logo_Budouctnost}
+          src={Logo_Budoucnost}
           alt="Logo Projekt Budoucnost"
           width="40"
         />
