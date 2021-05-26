@@ -4,17 +4,17 @@ import './style.css';
 
 const Nav = () => {
   const navigation = [
-    { text: 'Domů', href: 'index.html' },
-    { text: 'Lekce', href: 'souhrn-lekci.html' },
-    { text: 'Užitečné informace', href: '#informations' },
-    { text: 'Kontakty', href: '#contacts' },
+    { text: 'Domů', href: '/' },
+    { text: 'Lekce', href: '/souhrn-lekci' },
+    { text: 'Užitečné informace', href: '/' },
+    { text: 'Kontakty', href: '/' },
   ];
 
   return (
     <nav className="nav">
       <ul className="nav__list nav__list--close">
         {navigation.map((item) => (
-          <NavItem key={item.href} textContent={item.text} href={item.href} />
+          <NavItem key={item.text} textContent={item.text} href={item.href} />
         ))}
       </ul>
     </nav>

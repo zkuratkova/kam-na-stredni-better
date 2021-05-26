@@ -8,8 +8,12 @@
   line-height: 1.6;
 }
 
-.lesson,
-.home {
+.contact__info,
+.lesson__title,
+.intro__title,
+.informations__title,
+.contacts__title,
+.contact__title {
   text-align: center;
 }
 

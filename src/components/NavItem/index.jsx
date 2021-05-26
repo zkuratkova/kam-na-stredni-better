@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 const NavItem = (props) => {
   return (
     <li className="nav__list-item">
-      <a className="nav__link" href={props.href}>
+      <Link className="nav__link" to={props.href}>
         {props.textContent}
-      </a>
+      </Link>
     </li>
   );
 };
