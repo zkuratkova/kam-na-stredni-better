@@ -44,7 +44,7 @@ const Lesson = () => {
           si pak můžeš zapisovat přímo do něj. Odkaz je tady:
         </p>
         <a
-          className="btn"
+          className="btn download__btn"
           href="download/Pracovni_list_talent.pdf"
           download="Pracovni_list_talent.pdf"
         >

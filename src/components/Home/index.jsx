@@ -30,7 +30,7 @@ const Home = () => {
           připravili online kurz, který ti usnadní přemýšlení. Klikni na odkaz a
           udělej první krok k výběru správné školy hned teď.
         </p>
-        <button className="btn">
+        <button className="btn link-lesson__btn">
           <Link className="btn" to="/souhrn-lekci">
             Vstoupit do online kurzu
           </Link>
@@ -58,7 +58,7 @@ const Home = () => {
           cestu, kterou se po základní škole vydáš.
         </p>
         <a
-          className="btn"
+          className="btn contacts__btn"
           href="https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUpaSFoxcUwzQ25hfGRlZmF1bHR8YzE1ZjY4ZGViY2YxYjJiNDE1YTQ4YTlkYTkxNDMwZmE"
         >
           Vyhledat termín konzultace online
