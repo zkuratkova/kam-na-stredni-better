@@ -128,7 +128,12 @@
   padding: 0.7rem 1rem;
 }
 
-.el_btn,
+.btn__group {
+  text-align: center;
+}
+
+.btn__group--left,
+.btn__group--right,
 .btn {
   padding: 0.7rem;
   font-size: 1rem;
@@ -151,7 +156,8 @@
   background-color: #0c7c58;
 }
 
-.el_btn:hover,
+.btn__group--left:hover,
+.btn__group--right:hover,
 .btn:hover {
   background-color: #c40131;
 }
