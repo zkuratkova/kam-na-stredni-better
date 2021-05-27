@@ -2,6 +2,11 @@
   margin: 4rem 0;
 }
 
+.contact__info,
+.contact__title {
+  text-align: center;
+}
+
 .contact__img {
   width: 100%;
 }
@@ -22,5 +27,13 @@
   .contact__phone {
     padding: 0 1.5rem;
     text-align: left;
+  }
+
+  .container--contact {
+    display: flex;
+  }
+
+  .column--contact {
+    flex: 0 0 50%;
   }
 }

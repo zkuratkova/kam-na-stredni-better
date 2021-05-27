@@ -9,9 +9,9 @@ import {
 import './style.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './components/Home';
-import Summary from './components/Summary';
-import Lesson from './components/Lesson';
+import Home from './pages/Home';
+import Summary from './pages/Summary';
+import Lesson from './pages/Lesson';
 
 const App = () => (
   <Router>

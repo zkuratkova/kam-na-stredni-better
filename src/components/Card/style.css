@@ -1,0 +1,22 @@
+.card {
+  background-color: #d5dfe5;
+  color: #000000;
+  padding: 1.5rem;
+  margin: 1rem 0;
+}
+
+.card__number {
+  font-size: 4rem;
+  color: #175676;
+}
+
+.container--card {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    margin: 0;
+  }
+}

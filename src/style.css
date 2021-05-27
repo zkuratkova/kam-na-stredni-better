@@ -22,16 +22,13 @@
   text-align: center;
 }
 
-.contact__info,
 .lesson__title,
 .intro__title,
 .informations__title,
-.contacts__title,
-.contact__title {
+.contacts__title {
   text-align: center;
 }
 
-.summary__title--main,
 .lesson__title--main,
 .home__title--main {
   color: #ee003c;
@@ -167,31 +164,6 @@
   background-color: #0b6448;
 }
 
-.card {
-  background-color: #d5dfe5;
-  color: #000000;
-  padding: 1.5rem;
-  margin: 1rem 0;
-}
-
-.summary__title {
-  text-align: center;
-}
-
-.card__number {
-  font-size: 4rem;
-  color: #175676;
-}
-
-.container--card {
-  display: flex;
-  justify-content: space-between;
-}
-
-.container--summary {
-  margin-bottom: 14rem;
-}
-
 @media screen and (min-width: 600px) {
   .quiz__text {
     display: inline-block;
@@ -199,8 +171,7 @@
   }
 
   .lesson,
-  .home,
-  .summary {
+  .home {
     padding: 0 2rem;
   }
 
@@ -208,26 +179,8 @@
     text-align: left;
   }
 
-  .container--contact {
-    display: flex;
-  }
-
-  .column--contact {
-    flex: 0 0 50%;
-  }
-
   .worksheet-download {
     margin-top: 2rem;
-  }
-
-  .card {
-    margin: 0;
-  }
-
-  .container--summary {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
   }
 }
 
@@ -235,9 +188,5 @@
   .wrapper {
     width: 900px;
     margin: 0 auto;
-  }
-
-  .container--summary {
-    grid-template-columns: repeat(3, 1fr);
   }
 }

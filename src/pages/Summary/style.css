@@ -1,0 +1,30 @@
+.summary__title {
+  text-align: center;
+}
+
+.container--summary {
+  margin-bottom: 14rem;
+}
+
+.summary__title--main {
+  color: #ee003c;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .summary {
+    padding: 0 2rem;
+  }
+
+  .container--summary {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container--summary {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

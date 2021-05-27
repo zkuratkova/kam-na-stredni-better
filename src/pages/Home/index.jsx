@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Contact from '../Contact';
+import Contact from '../../components/Contact';
 
 const Home = () => {
   return (
