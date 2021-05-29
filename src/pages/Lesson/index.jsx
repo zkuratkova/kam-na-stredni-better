@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Lesson = () => {
+  console.log(lekce);
   return (
     <div className="lesson">
       <h1 className="lesson__title lesson__title--main">Lekce 1</h1>

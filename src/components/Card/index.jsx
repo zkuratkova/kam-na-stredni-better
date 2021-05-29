@@ -2,15 +2,17 @@ import React from 'react';
 import SummaryBtn from '../SummaryBtn';
 import './style.css';
 
-const Card = () => (
-  <div className="card">
-    <div className="container--card">
-      <h4 className="card__title">Název</h4>
-      <span className="card__number">1</span>
+const Card = (props) => {
+  return (
+    <div className="card">
+      <div className="container--card">
+        <h4 className="card__title">{props.cardTitle}</h4>
+        <span className="card__number">{props.cardNumber}</span>
+      </div>
+      <p className="card__text">{props.cardText}</p>
+      <SummaryBtn />
     </div>
-    <p className="card__text">K vypracování budeš potřebovat 30 minut</p>
-    <SummaryBtn />
-  </div>
-);
+  );
+};
 
 export default Card;

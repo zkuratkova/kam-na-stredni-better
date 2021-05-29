@@ -25,7 +25,7 @@ const App = () => (
           <Route path="/souhrn-lekci" exact>
             <Summary />
           </Route>
-          <Route path="/lekce" exact>
+          <Route path="/lekce/:id" exact>
             <Lesson />
           </Route>
         </Switch>
