@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Contact from '../../components/Contact';
+import Btn from '../../components/Btn';
 
 const Home = () => {
   return (
@@ -30,11 +31,11 @@ const Home = () => {
           připravili online kurz, který ti usnadní přemýšlení. Klikni na odkaz a
           udělej první krok k výběru správné školy hned teď.
         </p>
-        <button className="btn link-lesson__btn">
-          <Link className="btn" to="/souhrn-lekci">
-            Vstoupit do online kurzu
-          </Link>
-        </button>
+        <Btn
+          text={'Vstoupit do online kurzu'}
+          linkTo={'/souhrn-lekci'}
+          btnType={'link'}
+        />
       </div>
       <section id="informations" className="informations">
         <h2 className="informations__title informations__title--underlined-right">
@@ -57,12 +58,13 @@ const Home = () => {
           si rovnou vyber volný termín v našem kalendáři. Společně vymyslíme
           cestu, kterou se po základní škole vydáš.
         </p>
-        <a
-          className="btn contacts__btn"
-          href="https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUpaSFoxcUwzQ25hfGRlZmF1bHR8YzE1ZjY4ZGViY2YxYjJiNDE1YTQ4YTlkYTkxNDMwZmE"
-        >
-          Vyhledat termín konzultace online
-        </a>
+        <Btn
+          text={'Vyhledat termín konzultace online'}
+          linkTo={
+            'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUpaSFoxcUwzQ25hfGRlZmF1bHR8YzE1ZjY4ZGViY2YxYjJiNDE1YTQ4YTlkYTkxNDMwZmE'
+          }
+          btnType={'ext'}
+        />
         <Contact />
         <div className="contact-main">
           <h3 className="contact__title">Projekt Budoucnost z.s.</h3>
