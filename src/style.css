@@ -130,10 +130,10 @@
 
 .btn__group {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
-.btn__group--left,
-.btn__group--right,
 .btn {
   padding: 0.7rem;
   font-size: 1rem;
@@ -156,8 +156,6 @@
   background-color: #0c7c58;
 }
 
-.btn__group--left:hover,
-.btn__group--right:hover,
 .btn:hover {
   background-color: #c40131;
 }
@@ -183,6 +181,10 @@
 
   .worksheet-download__text {
     text-align: left;
+  }
+
+  .video__container {
+    margin-bottom: 2rem;
   }
 
   .worksheet-download {

@@ -1,4 +1,5 @@
 import React from 'react';
+import Btn from '../../components/Btn';
 
 const Lesson = () => {
   console.log(lekce);
@@ -20,9 +21,9 @@ const Lesson = () => {
           allowFullScreen
         ></iframe>
       </div>
-      <div class="btn__group">
-        <button class="btn__group--left">&#10094; Předchozí lekce</button>
-        <button class="btn__group--right">Následující lekce &#10095;</button>
+      <div className="btn__group">
+        <Btn text={'◀ Předchozí lekce'} linkTo={'/lekce'} btnType={'link'} />
+        <Btn text={'Následující lekce ▶'} linkTo={'/lekce'} btnType={'link'} />
       </div>
 
       <div className="worksheet-download">
@@ -30,13 +31,11 @@ const Lesson = () => {
           K lekci si můžeš stáhnout pracovní list v PDF, své postřehy a poznámky
           si pak můžeš zapisovat přímo do něj. Odkaz je tady:
         </p>
-        <a
-          className="btn download__btn"
-          href="download/Pracovni_list_talent.pdf"
-          download="Pracovni_list_talent.pdf"
-        >
-          Pracovní list PDF
-        </a>
+        <Btn
+          text={'Pracovní list PDF'}
+          btnType={'download'}
+          linkTo={'download/'}
+        />
       </div>
       <h3 className="lesson__title">Co mi dodává energii?</h3>
       <p className="lesson__text">
@@ -114,9 +113,7 @@ const Lesson = () => {
           </label>
         </div>
         <div className="quiz__btn">
-          <button className="btn" type="submit">
-            Odeslat
-          </button>
+          <Btn text={'Odeslat'} btnType={'btn'} />
         </div>
       </form>
 
@@ -147,7 +144,7 @@ const Lesson = () => {
           <p className="quiz__text quiz__text--right">
             Super! Máš to správně. Chceš jít dál?
           </p>
-          <button className="btn btn--right">Další lekce</button>
+          <Btn text={'Další lekce'} linkTo={'/lekce'} btnType={'right'} />
         </div>
       </form>
 

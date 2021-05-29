@@ -1,5 +1,5 @@
 import React from 'react';
-import SummaryBtn from '../SummaryBtn';
+import Btn from '../Btn';
 import './style.css';
 
 const Card = (props) => {
@@ -10,7 +10,7 @@ const Card = (props) => {
         <span className="card__number">{props.cardNumber}</span>
       </div>
       <p className="card__text">{props.cardText}</p>
-      <SummaryBtn />
+      <Btn btnType={'link'} linkTo={'/lekce'} text={'Otevřít lekci'} />
     </div>
   );
 };
