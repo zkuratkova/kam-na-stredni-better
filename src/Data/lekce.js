@@ -2,8 +2,8 @@ export const lekce = [
   {
     lessonNumber: 'Lekce 1',
     lessonTitleMain: 'Výběr střední školy podle představy',
-    lessonVideo:
-      'https://youtu.be/4o64sn-5kfI?list=PLtq9WqtkBHkOebYSWaOsidPbcNLaAnJWi',
+    lessonVideo: 'https://www.youtube.com/embed/4o64sn-5kfI',
+    lessonDownloadURL: '/download/1_prac.list.pdf',
     content: [
       {
         podtitulek: 'Co mi dodává energii?',
@@ -34,8 +34,7 @@ export const lekce = [
     lessonNumber: 'Lekce 2',
     lessonTitleMain:
       'Co všechno je třeba udělat, aby se představa stala skutečností',
-    lessonVideo:
-      'https://youtu.be/P_9X4mZd9JM?list=PLtq9WqtkBHkOebYSWaOsidPbcNLaAnJWi',
+    lessonVideo: 'https://www.youtube.com/embed/P_9X4mZd9JM',
     content: [
       {
         podtitulek: 'Důležitý seznam k výběru střední školy',
@@ -72,8 +71,7 @@ export const lekce = [
   {
     lessonNumber: 'Lekce 3',
     lessonTitleMain: 'Jak odhalit svá nadání',
-    lessonVideo:
-      'https://www.youtube.com/watch?v=sFi4FVGhXgM&ab_channel=ProjektBudoucnost',
+    lessonVideo: '',
     content: [
       {
         podtitulek: 'Co mi dodává energii?',
@@ -122,7 +120,8 @@ export const lekce = [
   {
     lessonNumber: 'Lekce 4',
     lessonTitleMain: 'Výběr školy, která rozvíjí moje nadání',
-    lessonVideo: '',
+    lessonVideo: 'https://www.youtube.com/embed/sFi4FVGhXgM',
+
     content: [
       {
         podtitulek: 'Vyber školu, kde zažiješ obrovský růst rozvoj a podporu',
@@ -153,8 +152,7 @@ export const lekce = [
   {
     lessonNumber: 'Lekce 5',
     lessonTitleMain: 'Výběr střední školy podle známek',
-    lessonVideo:
-      'https://youtu.be/vLHcJZ4WhNY?list=PLtq9WqtkBHkOebYSWaOsidPbcNLaAnJWi',
+    lessonVideo: 'https://www.youtube.com/embed/vLHcJZ4WhNY',
     content: [
       {
         text: `Zase ty známky. Nemusíš se bát, nebudeme psát test.:) Otázka, jak prospívám, je důležitá z jiného důvodu. Dá ti totiž zpětnou vazbu na to, zda umíš zamakat, když je třeba a překonat překážky.
@@ -173,8 +171,8 @@ export const lekce = [
   {
     lessonNumber: 'Lekce 6',
     lessonTitleMain: 'Místo, kde chci studovat',
-    lessonVideo:
-      'https://youtu.be/4o64sn-5kfI?list=PLtq9WqtkBHkOebYSWaOsidPbcNLaAnJWi',
+    lessonVideo: 'https://www.youtube.com/embed/wsBokJeX-8U',
+
     content: [
       {
         podtitulek: 'Chci bydlet doma',
