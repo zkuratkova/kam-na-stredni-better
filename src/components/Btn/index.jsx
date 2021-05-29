@@ -19,7 +19,7 @@ const Btn = (props) => {
   } else {
     let btnClass = 'btn';
     if (props.btnType === 'secondary' || props.btnType === 'right') {
-      btnClass += ' ' + props.btnType;
+      btnClass += ' ' + `btn--${props.btnType}`;
     }
     return <button className={btnClass}>{props.text}</button>;
   }
