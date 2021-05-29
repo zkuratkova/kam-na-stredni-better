@@ -21,7 +21,11 @@ const Btn = (props) => {
     if (props.btnType === 'secondary' || props.btnType === 'right') {
       btnClass += ' ' + `btn--${props.btnType}`;
     }
-    return <button className={btnClass}>{props.text}</button>;
+    return (
+      <button className={btnClass} type="submit">
+        {props.text}
+      </button>
+    );
   }
 };
 
