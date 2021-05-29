@@ -6,27 +6,25 @@ export const lekce = [
     lessonDownloadURL: '/download/1_prac.list.pdf',
     content: [
       {
-        podtitulek: 'Co mi dodává energii?',
-        text: `Jak zjistit na co mám talent? To poznáš tak, že odhalíš, co ti dodává energii. Jasně, už slyším tvojí odpověď: „Spánek!“ Haha. Samozřejmě máš pravdu a kvalitní spánek je důležitý, avšak zaměř se na sebe teď, když jsi vzhůru. Co tě nabíjí? Co ti dodává energii? Napiš si všechno, co se ti teď vybavuje.`,
+        podtitulek: 'Představ si povolání, které si zamiluješ',
+        text: `Víš proč se ptám, jestli víš, co chceš dělat, a ne kam na školu chceš jít? Protože musíš začít přemýšlet od konce. Představ si, že právě teď děláš činnost, která tě baví. Jak se cítíš? Představ si tu činnost do úplných detailů. Jsi sám nebo pracuješ v týmu? Představ si to, jako bys tam teď byl. Co právě říkáš? Klidně zavři oči, je to důležité.`,
       },
 
       {
-        podtitulek: 'Co mě vybíjí?',
-        text: `Nemáš nic? S tím si poradíme. Zeptej se sám sebe, co ti naopak energii vysává? Všechno si zapiš. Najít to, co nás vybíjí nebo k tomu máme dokonce odpor je totiž daleko lehčí. Někdo by mohl tento seznam nazvat tvými slabými stránkami. Skvělý, ať si to nazývá kdo chce, jak chce. Vědět o svých slabinách je dobré, ale to je asi tak všechno.`,
+        podtitulek: 'Zapiš si vše, co o svém povolání víš',
+        text: `Máš už oči otevřené? Dobře, pokračujeme dál. Vezmi papír a tužku a svoji představu si pečlivě zapiš. Zapiš si to co slyšíš, co vidíš, co cítíš. Zapiš vše v přítomném čase.`,
+      },
+      {
+        podtitulek: 'Výběr střední školy je teď mnohem snazší',
+        text: `Pokud byla tvá práce pečlivá, věnoval/a jsi sám/sama sobě obrovský dar. Byla-li představa dostatečně věrohodná, víš přesně, za čím máš jít. Tvoje vnitřní motivace má pevné základy. Otázka, jak vybrat střední školu už najednou není středem vesmíru, je to jen krok na cestě.`,
       },
 
       {
-        titulek: 'Jak zjistit, v čem jsem dobrý?',
-        text: `Vrátíme se k tomu podstatnému. Co jsou tvé silné stránky, talenty, jaký je tvůj potenciál? Člověk se rodí poskládaný z různých vlastností, povahových rysů a talentů. V tomto životě nemůže za to, s čím na svět přišel. Za co může je to, jak se svými talenty naloží. Ultimátní cíl zdravého života je: „Vědět o svých slabých stránkách a rozvíjet své talenty.“ `,
-      },
-      {
-        podtitulek: 'Ptej se sám sebe: Co mi dodává energii?',
-        text: `Zkus to znovu. Jak zjistit na co mám talent? Máš už seznam slabých stránek? Pokud ano, tak víš, jak na to. Najdi si klidné místo, požádej okolí, ať tě nikdo neruší. Nebo jdi do přírody, tam se totiž náramně dobře „přemýšlí.“ Přemýšlí není úplně ten správný výraz, protože potřebujeme, abychom se naopak dostali nad myšlenky. Když sami sobě pokládáme otázky, dáváme prostor intuici, nebo-li hlubokému myšlení. Tam se zpracovává obrovské množství dat, zážitků, prožitků,… Připrav se proto na to, že se odpověď nedostaví hned. Trvá to, obrň se trpělivostí. Odměnou ti bude, že dostaneš odpovědi, které jinou cestou nezískáš, dokonce ani za peníze. Na co mám talent? Co mi dodává energii? Co mě dokázalo nadchnout? Před čím jsem žasnul?`,
-      },
-
-      {
-        podtitulek: 'Ptej se ostatních: Co na mě obdivuješ?',
-        text: `Když půjdeš po ulici a zeptáš se náhodného kolemjdoucího: „Co na mě obdivujete?,“ nejspíš se nesetkáš s pochopením, ale za ten vtípek to stojí. Musím to sám vyzkoušet. 😀 Správně, asi tě napadá, že takovou otázku musíš položit někomu blízkému, komu důvěřuješ. Je zajímavé, že lépe si všímáme ostatních, než sami sebe. S velkou pravděpodobností se dozvíš něco opravdu cenného.`,
+        titulek: 'Ty to zvládneš',
+        text: `Vím, že vybíráš střední školu a už to je docela stresující. Chvíli si odpočiň, zaměř svoji pozornost jinam.
+        Až se vrátíš, zkus si rovnou vybrat vysokou školu. Proboha proč? Vždyť ani nejsem na střední, nevím jestli ji zvládnu a mám si rovnou vybírat vysokou??! Nechci tě naštvat, jen vím, že potřebuješ vědět, jestli máš šanci se ze střední školy dostat bez větších problémů na vysokou.
+        P.S: A můžeš být klidný/á, když víš, co chceš dělat, všechny překážky překonáš mnohem snáze.
+        `,
       },
     ],
   },
@@ -71,7 +69,7 @@ export const lekce = [
   {
     lessonNumber: 'Lekce 3',
     lessonTitleMain: 'Jak odhalit svá nadání',
-    lessonVideo: '',
+    lessonVideo: 'https://www.youtube.com/embed/sFi4FVGhXgM',
     content: [
       {
         podtitulek: 'Co mi dodává energii?',

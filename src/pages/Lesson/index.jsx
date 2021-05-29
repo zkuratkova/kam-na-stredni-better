@@ -36,12 +36,12 @@ const Lesson = () => {
       <div className="btn__group">
         <Btn
           text={'◀ Předchozí lekce'}
-          linkTo={`/lekce/ ${aktualniLekce - 1}`}
+          linkTo={`/lekce/${aktualniLekce - 1}`}
           btnType={'link'}
         />
         <Btn
           text={'Následující lekce ▶'}
-          linkTo={`/lekce/ ${aktualniLekce + 1}`}
+          linkTo={`/lekce/${aktualniLekce + 1}`}
           btnType={'link'}
         />
       </div>

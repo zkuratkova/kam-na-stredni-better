@@ -45,6 +45,16 @@ const Home = () => {
           Už víš, kam by ses chtěl po základní škole vydat? Paráda! Koukni na
           odkazy níže, ve kterých najdeš úplné přehledy škol a jejich oborů.
         </p>
+        <Btn
+          text={'Atlas školství'}
+          linkTo={'https://www.atlasskolstvi.cz/stredni-skoly'}
+          btnType={'ext'}
+        />
+        <Btn
+          text={'Přehled středních škol'}
+          linkTo={'https://www.stredniskoly.cz/'}
+          btnType={'ext'}
+        />
       </section>
       <section id="contacts" className="contacts">
         <h2 className="contacts__title contacts__title--underlined">
