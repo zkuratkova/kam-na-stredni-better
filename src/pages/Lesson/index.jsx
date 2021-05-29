@@ -19,23 +19,9 @@ const Lesson = () => {
           allowFullScreen
         ></iframe>
       </div>
-      <div className="el_btn_group">
-        <el-button-group>
-          <el-button
-            className="el_btn"
-            type="primary"
-            icon="el-icon-arrow-left"
-          >
-            Předchozí lekce
-          </el-button>
-          <el-button
-            className="el_btn"
-            type="primary"
-            icon="el-icon-arrow-right"
-          >
-            Následující lekce
-          </el-button>
-        </el-button-group>
+      <div class="btn__group">
+        <button class="btn__group--left">&#10094; Předchozí lekce</button>
+        <button class="btn__group--right">Následující lekce &#10095;</button>
       </div>
 
       <div className="worksheet-download">
