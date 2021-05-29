@@ -53,7 +53,7 @@ const Quiz = (props) => {
           <Btn
             text={answerResult === 'right' ? 'Odeslat' : 'Další lekce'}
             btnType={answerResult === 'right' ? 'right' : 'link'}
-            linkTo={`/lekce/${aktualniLekce + 1}`}
+            linkTo={'/lekce'}
           />
         </div>
       </form>
