@@ -13,6 +13,7 @@ const Summary = () => {
           {cards.map((card) => {
             return (
               <Card
+                key={card.cardNumber}
                 cardTitle={card.cardTitle}
                 cardNumber={card.cardNumber}
                 cardText={card.cardText}

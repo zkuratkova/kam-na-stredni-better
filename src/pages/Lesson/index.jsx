@@ -1,8 +1,12 @@
 import React from 'react';
 import Btn from '../../components/Btn';
+import { useParams } from 'react-router-dom';
 
 const Lesson = () => {
-  console.log(lekce);
+  // useParams from react-router-dom
+  // :id lekce
+  let { id } = useParams();
+
   return (
     <div className="lesson">
       <h1 className="lesson__title lesson__title--main">Lekce 1</h1>
@@ -175,10 +179,8 @@ const Lesson = () => {
           <p className="quiz__text quiz__text--wrong">
             Ou. Chyba. Zkusíš to znovu?
           </p>
-          <button className="btn" type="reset">
-            Zkusit znovu
-          </button>
-          <button className="btn btn--secondary">Další lekce</button>
+          <Btn text={'Opakovat'} btnType={'btn'} />
+          <Btn text={'Další lekce'} linkTo={'/lekce'} btnType={'secondary'} />
         </div>
       </form>
 

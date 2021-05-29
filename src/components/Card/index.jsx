@@ -10,7 +10,11 @@ const Card = (props) => {
         <span className="card__number">{props.cardNumber}</span>
       </div>
       <p className="card__text">{props.cardText}</p>
-      <Btn btnType={'link'} linkTo={'/lekce'} text={'Otevřít lekci'} />
+      <Btn
+        btnType={'link'}
+        linkTo={`/lekce/${props.cardNumber}`}
+        text={'Otevřít lekci'}
+      />
     </div>
   );
 };
