@@ -8,7 +8,12 @@ const Quiz = (props) => {
   idLekce = idLekce - 1;
   const aktualniLekce = quiz[idLekce];
 
-  const [answerResult, setAnswerResult] = useState('not-answered'); // right, wrong, not-answered
+  const [answerResult, setAnswerResult] = useState('right'); // right, wrong, not-answered
+  const handleClick = () => {
+    if (answerResult === 'right') {
+      setAnswerResult = 'wrong';
+    }
+  };
 
   return (
     <>
@@ -38,9 +43,12 @@ const Quiz = (props) => {
         </div>
         <div className="quiz__btn">
           {answerResult === 'right' && (
-            <p className="quiz__text quiz__text--right">
-              Super! Máš to správně. Chceš jít dál?
-            </p>
+            <>
+              <p className="quiz__text quiz__text--right">
+                Super! Máš to správně. Chceš jít dál?
+              </p>
+              <Btn text={'Další lekce'} btnType={'right'} linkTo={'/lekce'} />
+            </>
           )}
           {answerResult === 'wrong' && (
             <>
@@ -48,13 +56,12 @@ const Quiz = (props) => {
                 Ou. Chyba. Zkusíš to znovu?
               </p>
               <Btn text={'Zkus to znovu'} btnType={'secondary'} />
+              <Btn text={'Další lekce'} btnType={'link'} linkTo={'/lekce'} />
             </>
           )}
-          <Btn
-            text={answerResult === 'right' ? 'Další lekce' : 'Odeslat'}
-            btnType={answerResult === 'right' ? 'right' : 'link'}
-            linkTo={'/lekce'}
-          />
+          {answerResult === 'not-answered' && (
+            <Btn onClick={handleClick} text="Odeslat" btnType={'btn'} />
+          )}
         </div>
       </form>
     </>
