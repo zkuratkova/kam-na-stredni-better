@@ -8,7 +8,7 @@ const Quiz = (props) => {
   idLekce = idLekce - 1;
   const aktualniLekce = quiz[idLekce];
 
-  const [answerResult, setAnswerResult] = useState('wrong'); // right, wrong, not-answered
+  const [answerResult, setAnswerResult] = useState('not-answered'); // right, wrong, not-answered
 
   return (
     <>
@@ -51,7 +51,7 @@ const Quiz = (props) => {
             </>
           )}
           <Btn
-            text={answerResult === 'right' ? 'Odeslat' : 'Další lekce'}
+            text={answerResult === 'right' ? 'Další lekce' : 'Odeslat'}
             btnType={answerResult === 'right' ? 'right' : 'link'}
             linkTo={'/lekce'}
           />
