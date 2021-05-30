@@ -1,5 +1,4 @@
 import React from 'react';
-import Btn from '../../components/Btn';
 import { useParams, Link } from 'react-router-dom';
 import Quiz from '../../components/Quiz';
 import { lekce } from '../../Data/lekce';
@@ -8,10 +7,10 @@ const Lesson = () => {
   // useParams from react-router-dom
   // :id lekce
 
-  let { id: idLekce } = useParams();
-  idLekce = idLekce - 1; //zobrazení správného prvku v poli//
+  let { id: cisloLekce } = useParams();
+  cisloLekce = Number(cisloLekce);
 
-  const aktualniLekce = lekce[idLekce];
+  const aktualniLekce = lekce[cisloLekce - 1]; //zobrazení správného prvku v poli
 
   return (
     <div className="lesson">
@@ -34,10 +33,10 @@ const Lesson = () => {
         ></iframe>
       </div>
       <div className="btn__group">
-        <Link className="btn" to={`/lekce/${aktualniLekce - 1}`}>
+        <Link className="btn" to={`/lekce/${cisloLekce - 1}`}>
           ◀ Předchozí lekce
         </Link>
-        <Link className="btn" to={`/lekce/${aktualniLekce + 1}`}>
+        <Link className="btn" to={`/lekce/${cisloLekce + 1}`}>
           Následující lekce ▶
         </Link>
       </div>

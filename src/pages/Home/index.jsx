@@ -42,6 +42,7 @@ const Home = () => {
           Už víš, kam by ses chtěl po základní škole vydat? Paráda! Koukni na
           odkazy níže, ve kterých najdeš úplné přehledy škol a jejich oborů.
         </p>
+
         <a href="https://www.atlasskolstvi.cz/stredni-skoly" className="btn">
           Atlas školství
         </a>
