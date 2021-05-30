@@ -210,115 +210,79 @@ export const lekce = [
       {
         podtitulek: 'Chci bydlet doma',
         text: `PLUSY`,
+        seznam: [
+          `
+         Neutrácíš za cestovné a ubytování.`,
+          `
+         Můžeš pokračovat v tvých oblíbených aktivitách na stejném místě.`,
+          ` Můžeš se častěji potkávat se starými známými.`,
+          `
+         Můžeš předpokládat, že máš doma all-inclusive.`,
+        ],
       },
+
       {
-        text: `
-        Neutrácíš za cestovné a ubytování.`,
-      },
-      {
-        text: `
-        Můžeš pokračovat v tvých oblíbených aktivitách na stejném místě.`,
-      },
-      {
-        text: `
-        Můžeš se častěji potkávat se starými známými.`,
-      },
-      {
-        text: `
-        Můžeš předpokládat, že máš doma all-inclusive.`,
-      },
-      {
-        text: `
-        MÍNUSY`,
-      },
-      {
-        text: `
-        Omezený výběr škol.`,
-      },
-      {
-        text: `
-        Musíš sám hledat nové příležitosti.`,
-      },
-      {
-        text: `
-        Je těžší učit se samostatnosti, když jsi doma.`,
-      },
-      {
-        text: `
-        Čekají na tebe domácí povinnosti.
+        text: `MÍNUSY`,
+        seznam: [
+          `
+        
+         Omezený výběr škol.`,
+          `
+         Musíš sám hledat nové příležitosti.`,
+          `
+         Je těžší učit se samostatnosti, když jsi doma.`,
+          `
+         Čekají na tebe domácí povinnosti.
         `,
+        ],
       },
 
       {
         podtitulek: 'Chci se osamostatnit a žít na intru',
         text: `PLUSY`,
+        seznam: [
+          ` Naučíš se samostatnosti.`,
+          `
+         Potkáš nové lidi, se kterými můžeš trávit více času.`,
+          `
+         Večery jsou pro tebe a tvé kamarády.`,
+        ],
       },
-      {
-        text: `
-        Naučíš se samostatnosti.`,
-      },
-      {
-        text: `
-        Potkáš nové lidi, se kterými můžeš trávit více času.`,
-      },
-      {
-        text: `
-        Večery jsou pro tebe a tvé kamarády.`,
-      },
+
       {
         text: `
         MÍNUSY`,
-      },
-      {
-        text: `
-        Ztrácíš all-inclusive domácí zázemí.`,
-      },
-      {
-        text: `
-        Musíš plánovat, kdy se uvidíš s rodinou a starými kamarády.`,
-      },
-      {
-        text: `
-        Intr není hotel, takže tě čekají povinnosti a omezená svoboda.`,
-      },
-      {
-        text: `
-        
-        `,
+        seznam: [
+          ` Ztrácíš all-inclusive domácí zázemí.`,
+          `
+         Musíš plánovat, kdy se uvidíš s rodinou a starými kamarády.`,
+          `
+         Intr není hotel, takže tě čekají povinnosti a omezená svoboda.`,
+        ],
       },
 
       {
         podtitulek: 'Chci na střední do zahraničí',
         text: `PLUSY`,
+        seznam: [
+          ` Vybral sis tu nejlepší školu, kterou jsi chtěl.`,
+          `
+         Máš tu nejlepší příležitost naučit se jiný jazyk, možná i několik jazyků najednou.`,
+          `
+         Díky setkání s jinou mentalitou se ti může rozšířit vnímání světa. Uvidíš, že na jednu událost existuje mnoho pohledů = každý má svoji pravdu.`,
+          `
+         Nejlepší trénink k samostatnosti.`,
+        ],
       },
-      {
-        text: `
-        Vybral sis tu nejlepší školu, kterou jsi chtěl.`,
-      },
-      {
-        text: `
-        Máš tu nejlepší příležitost naučit se jiný jazyk, možná i několik jazyků najednou.`,
-      },
-      {
-        text: `
-        Díky setkání s jinou mentalitou se ti může rozšířit vnímání světa. Uvidíš, že na jednu událost existuje mnoho pohledů = každý má svoji pravdu.`,
-      },
-      {
-        text: `
-        Nejlepší trénink k samostatnosti.`,
-      },
+
       {
         text: `
         MÍNUSY`,
-      },
-      {
-        text: `
-        Je to sakra drahé, avšak existují stipendia.`,
-      },
-      {
-        text: `
-        Ztrácíš osobní kontakt s rodinou a přáteli.
-        `,
+        seznam: [
+          `  Je to sakra drahé, avšak existují stipendia.`,
+          `
+         Ztrácíš osobní kontakt s rodinou a přáteli.`,
+        ],
       },
     ],
   },

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Quiz from '../../components/Quiz';
 import { lekce } from '../../Data/lekce';
@@ -58,9 +58,9 @@ const Lesson = () => {
           Pracovní list PDF
         </a>
       </div>
-      {aktualniLekce.content.map((content) => {
+      {aktualniLekce.content.map((content, index) => {
         return (
-          <>
+          <Fragment key={index}>
             {content.titulek ? (
               <h2 className="lesson__title lesson__title--underlined-right">
                 {content.titulek}
@@ -69,8 +69,19 @@ const Lesson = () => {
             {content.podtitulek ? (
               <h3 className="lesson__title">{content.podtitulek}</h3>
             ) : null}
-            <p className="lesson__text">{content.text}</p>
-          </>
+
+            <p>{content.text}</p>
+
+            {content.seznam.map((subcontent, subindex) => {
+              return (
+                <ul>
+                  {subcontent ? (
+                    <li key={index + '_' + subindex}>{subcontent}</li>
+                  ) : null}
+                </ul>
+              );
+            })}
+          </Fragment>
         );
       })}
 
