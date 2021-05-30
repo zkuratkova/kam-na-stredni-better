@@ -83,8 +83,8 @@ const Home = () => {
             373 72, Lišov <br />
             IČ: 08266972 <br />
             Transparentní účet: 2701720739 / 2010 <br />
-            Spolek zapsaný u Krajského soudu v Českých Budějovicích od
-            9.července 2019.
+            Spolek zapsaný u Krajského soudu v Českých Budějovicích od 9.
+            července 2019.
           </p>
         </div>
       </section>

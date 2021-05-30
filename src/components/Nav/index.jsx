@@ -8,8 +8,8 @@ const Nav = () => {
   const navigation = [
     { text: 'Domů', href: '/' },
     { text: 'Lekce', href: '/souhrn-lekci' },
-    { text: 'Užitečné informace', href: '/' },
-    { text: 'Kontakty', href: '/' },
+    { text: 'Užitečné informace', href: '/#informations' },
+    { text: 'Kontakty', href: '#contacts' },
   ];
 
   return (
