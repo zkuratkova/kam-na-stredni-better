@@ -13,7 +13,7 @@ const Lesson = () => {
   const aktualniLekce = lekce[cisloLekce - 1]; //zobrazení správného prvku v poli
 
   return (
-    <div className="lesson">
+    <div className="lesson" key={cisloLekce}>
       <h1 className="lesson__title lesson__title--main">
         {aktualniLekce.lessonNumber}
       </h1>
