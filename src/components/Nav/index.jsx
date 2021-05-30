@@ -9,7 +9,7 @@ const Nav = () => {
     { text: 'Domů', href: '/' },
     { text: 'Lekce', href: '/souhrn-lekci' },
     { text: 'Užitečné informace', href: '/#informations' },
-    { text: 'Kontakty', href: '#contacts' },
+    { text: 'Kontakty', href: '/#contacts' },
   ];
 
   return (
