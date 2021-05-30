@@ -33,12 +33,20 @@ const Lesson = () => {
         ></iframe>
       </div>
       <div className="btn__group">
-        <Link className="btn" to={`/lekce/${cisloLekce - 1}`}>
-          ◀ Předchozí lekce
-        </Link>
-        <Link className="btn" to={`/lekce/${cisloLekce + 1}`}>
-          Následující lekce ▶
-        </Link>
+        {cisloLekce === 1 ? null : (
+          <Link className="btn" to={`/lekce/${cisloLekce + 1}`}>
+            ◀ Předchozí lekce
+          </Link>
+        )}
+        {cisloLekce === 6 ? (
+          <Link className="btn" to={'/'}>
+            Konec kurzu, zpět na hlavní stranu ▶
+          </Link>
+        ) : (
+          <Link className="btn" to={`/lekce/${cisloLekce + 1}`}>
+            Následující lekce ▶
+          </Link>
+        )}
       </div>
 
       <div className="worksheet-download">
