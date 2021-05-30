@@ -3,7 +3,7 @@ export const lekce = [
     lessonNumber: 'Lekce 1',
     lessonTitleMain: 'Výběr střední školy podle představy',
     lessonVideo: 'https://www.youtube.com/embed/4o64sn-5kfI',
-    lessonDownloadURL: '/download/1_prac.list.pdf',
+    lessonDownloadURL: '/public/1_prac.list.pdf',
     content: [
       {
         podtitulek: 'Představ si povolání, které si zamiluješ',
@@ -33,6 +33,8 @@ export const lekce = [
     lessonTitleMain:
       'Co všechno je třeba udělat, aby se představa stala skutečností',
     lessonVideo: 'https://www.youtube.com/embed/P_9X4mZd9JM',
+    lessonDownloadURL: '/public/2_prac.list.pdf',
+
     content: [
       {
         podtitulek: 'Důležitý seznam k výběru střední školy',
@@ -70,6 +72,7 @@ export const lekce = [
     lessonNumber: 'Lekce 3',
     lessonTitleMain: 'Jak odhalit svá nadání',
     lessonVideo: 'https://www.youtube.com/embed/sFi4FVGhXgM',
+    lessonDownloadURL: '/public/3_prac.list.pdf',
     content: [
       {
         podtitulek: 'Co mi dodává energii?',
@@ -82,7 +85,7 @@ export const lekce = [
         podtitulek: 'Co mě vybíjí?',
         text: `Nemáš nic? S tím si poradíme.
         Zeptej se sám sebe, co ti naopak energii vysává? Všechno si zapiš.
-        Najít to, co nás vybíjí nebo k tomu máme dokonce odpor je totiž daleko lehčí. Někdo by mohl tento seznam nazvat tvými slabými stránkami. Skvělý, ať si to nazývá kdo chce, jak chce. Vědět o svých slabinách je dobré, ale to je asi tak všechno.        
+        Najít to, co nás vybíjí nebo k tomu máme dokonce odpor je totiž daleko lehčí. Někdo by mohl tento seznam nazvat tvými slabými stránkami. Skvělý, ať si to nazývá kdo chce, jak chce. Vědět o svých slabinách je dobré, ale to je asi tak všechno.
         `,
       },
       {
@@ -119,6 +122,7 @@ export const lekce = [
     lessonNumber: 'Lekce 4',
     lessonTitleMain: 'Výběr školy, která rozvíjí moje nadání',
     lessonVideo: 'https://www.youtube.com/embed/sFi4FVGhXgM',
+    lessonDownloadURL: '/public/4_prac.list.pdf',
 
     content: [
       {
@@ -151,6 +155,7 @@ export const lekce = [
     lessonNumber: 'Lekce 5',
     lessonTitleMain: 'Výběr střední školy podle známek',
     lessonVideo: 'https://www.youtube.com/embed/vLHcJZ4WhNY',
+    lessonDownloadURL: '/public/5_prac.list.pdf',
     content: [
       {
         text: `Zase ty známky. Nemusíš se bát, nebudeme psát test.:) Otázka, jak prospívám, je důležitá z jiného důvodu. Dá ti totiž zpětnou vazbu na to, zda umíš zamakat, když je třeba a překonat překážky.
@@ -170,6 +175,7 @@ export const lekce = [
     lessonNumber: 'Lekce 6',
     lessonTitleMain: 'Místo, kde chci studovat',
     lessonVideo: 'https://www.youtube.com/embed/wsBokJeX-8U',
+    lessonDownloadURL: '/public/6_prac.list.pdf',
 
     content: [
       {
