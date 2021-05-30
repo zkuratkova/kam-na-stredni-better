@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Contact from '../../components/Contact';
-import Btn from '../../components/Btn';
 
 const Home = () => {
   return (
@@ -31,11 +30,9 @@ const Home = () => {
           připravili online kurz, který ti usnadní přemýšlení. Klikni na odkaz a
           udělej první krok k výběru správné školy hned teď.
         </p>
-        <Btn
-          text={'Vstoupit do online kurzu'}
-          linkTo={'/souhrn-lekci'}
-          btnType={'link'}
-        />
+        <Link className="btn" to={'/souhrn-lekci'}>
+          Vstoupit do kurzu
+        </Link>
       </div>
       <section id="informations" className="informations">
         <h2 className="informations__title informations__title--underlined-right">
@@ -45,16 +42,12 @@ const Home = () => {
           Už víš, kam by ses chtěl po základní škole vydat? Paráda! Koukni na
           odkazy níže, ve kterých najdeš úplné přehledy škol a jejich oborů.
         </p>
-        <Btn
-          text={'Atlas školství'}
-          linkTo={'https://www.atlasskolstvi.cz/stredni-skoly'}
-          btnType={'ext'}
-        />
-        <Btn
-          text={'Přehled středních škol'}
-          linkTo={'https://www.stredniskoly.cz/'}
-          btnType={'ext'}
-        />
+        <a href="https://www.atlasskolstvi.cz/stredni-skoly" className="btn">
+          Atlas školství
+        </a>
+        <a href="https://www.stredniskoly.cz/" className="btn">
+          Přehled středních škol
+        </a>
       </section>
       <section id="contacts" className="contacts">
         <h2 className="contacts__title contacts__title--underlined">
@@ -68,13 +61,12 @@ const Home = () => {
           si rovnou vyber volný termín v našem kalendáři. Společně vymyslíme
           cestu, kterou se po základní škole vydáš.
         </p>
-        <Btn
-          text={'Vyhledat termín konzultace online'}
-          linkTo={
-            'https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUpaSFoxcUwzQ25hfGRlZmF1bHR8YzE1ZjY4ZGViY2YxYjJiNDE1YTQ4YTlkYTkxNDMwZmE'
-          }
-          btnType={'ext'}
-        />
+        <a
+          href="https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUpaSFoxcUwzQ25hfGRlZmF1bHR8YzE1ZjY4ZGViY2YxYjJiNDE1YTQ4YTlkYTkxNDMwZmE"
+          className="btn"
+        >
+          Vyhledat termín konzultace online
+        </a>
         <Contact />
         <div className="contact-main">
           <h3 className="contact__title">Projekt Budoucnost z.s.</h3>
