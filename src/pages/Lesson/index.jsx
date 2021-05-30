@@ -72,15 +72,16 @@ const Lesson = () => {
 
             <p>{content.text}</p>
 
-            {content.seznam.map((subcontent, subindex) => {
-              return (
-                <ul>
-                  {subcontent ? (
-                    <li key={index + '_' + subindex}>{subcontent}</li>
-                  ) : null}
-                </ul>
-              );
-            })}
+            {content.seznam &&
+              content.seznam.map((subcontent, subindex) => {
+                return (
+                  <ul>
+                    {subcontent ? (
+                      <li key={index + '_' + subindex}>{subcontent}</li>
+                    ) : null}
+                  </ul>
+                );
+              })}
           </Fragment>
         );
       })}
