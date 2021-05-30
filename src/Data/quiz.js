@@ -6,6 +6,7 @@ export const quiz = [
     answer1: 'Představím si sebe za 15 let.',
     answer2: 'Vymýšlím pro sebe 5 bláznivých povolání.',
     answer3: 'Zeptám se rodičů, jaké povolání si pro mě představují.',
+    rightAnswer: 1,
   },
   {
     id: '2',
@@ -14,6 +15,7 @@ export const quiz = [
     answer2:
       'Musím si udělat soupis všeho, co mě čaká než dosáhnu na vysněnou práci.',
     answer3: 'Nemusím nic zvažovat, vyberu si první školu na seznamu.',
+    rightAnswer: 1,
   },
   {
     id: '3',
@@ -23,6 +25,7 @@ export const quiz = [
     answer2:
       'Jak moc je pravděpodobné, že zdědím hrozně moc peněz a budu rentiér?',
     answer3: 'Kam bys šel ty?',
+    rightAnswer: 1,
   },
   {
     id: '4',
@@ -31,6 +34,7 @@ export const quiz = [
       'Vyhledám si co nejvíc informací a budu kontaktovat současné studenty a absolventy.',
     answer2: 'Podle pěkného letáčku.',
     answer3: 'Ujistí mě o tom ředitel školy.',
+    rightAnswer: 1,
   },
   {
     id: '5',
@@ -40,6 +44,7 @@ export const quiz = [
     answer2: 'Na známkách vůbec nezáleží.',
     answer3:
       'Pokud nemám doporučený průměr, o mé vysněné škole vůbec nebudu uvažovat.',
+    rightAnswer: 1,
   },
   {
     id: '6',
@@ -48,5 +53,6 @@ export const quiz = [
       'Při výběru školy je vhodné uvážit i zda mi bude vyhovovat lokace školy.',
     answer2: 'Důležitější je typ školy, než kde se škola nachází.',
     answer3: 'Lokaci školy není potřeba vůbec zvažovat.',
+    rightAnswer: 1,
   },
 ];

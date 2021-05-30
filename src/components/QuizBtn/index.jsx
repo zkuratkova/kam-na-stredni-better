@@ -11,7 +11,6 @@ const QuizBtn = (props) => {
       props.isRight ? props.onRightClick() : props.onWrongClick();
     }
     setAnswered(!answered);
-    disabled = true;
   };
   return (
     <button

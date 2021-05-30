@@ -1,14 +1,19 @@
 import React from 'react';
 
-import { HashLink as Link } from 'react-router-hash-link';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 import './style.css';
 
 const NavItem = (props) => {
   return (
     <li className="nav__list-item">
-      <Link className="nav__link" smooth to={props.href}>
+      <NavLink
+        className="nav__link"
+        smooth
+        to={props.href}
+        activeClassName="active"
+      >
         {props.textContent}
-      </Link>
+      </NavLink>
     </li>
   );
 };

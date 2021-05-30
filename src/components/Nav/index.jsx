@@ -8,7 +8,7 @@ const Nav = () => {
   const handleClick = () => setMenuOpened(!menuOpened);
   const navigation = [
     { text: 'Domů', href: '/' },
-    { text: 'Lekce', href: '/souhrn-lekci' },
+    { text: 'Lekce', href: '/lekce' },
     { text: 'Užitečné informace', href: '/#informations' },
     { text: 'Kontakty', href: '/#contacts' },
   ];
