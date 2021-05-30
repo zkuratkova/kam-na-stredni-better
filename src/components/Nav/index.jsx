@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import NavItem from '../NavItem';
+
 import './style.css';
 
 const Nav = () => {
