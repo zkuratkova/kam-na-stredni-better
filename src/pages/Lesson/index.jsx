@@ -1,6 +1,6 @@
 import React from 'react';
 import Btn from '../../components/Btn';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import Quiz from '../../components/Quiz';
 import { lekce } from '../../Data/lekce';
 
@@ -34,16 +34,12 @@ const Lesson = () => {
         ></iframe>
       </div>
       <div className="btn__group">
-        <Btn
-          text={'◀ Předchozí lekce'}
-          linkTo={`/lekce/${aktualniLekce - 1}`}
-          btnType={'link'}
-        />
-        <Btn
-          text={'Následující lekce ▶'}
-          linkTo={`/lekce/${aktualniLekce + 1}`}
-          btnType={'link'}
-        />
+        <Link className="btn" to={`/lekce/${aktualniLekce - 1}`}>
+          ◀ Předchozí lekce
+        </Link>
+        <Link className="btn" to={`/lekce/${aktualniLekce + 1}`}>
+          Následující lekce ▶
+        </Link>
       </div>
 
       <div className="worksheet-download">
