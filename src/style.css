@@ -131,7 +131,6 @@
 .btn__group {
   text-align: center;
   display: flex;
-  /* justify-content: space-between; */
 }
 
 .btn {

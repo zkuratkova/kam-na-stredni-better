@@ -34,7 +34,7 @@ const Lesson = () => {
       </div>
       <div className="btn__group">
         {cisloLekce === 1 ? null : (
-          <Link className="btn" to={`/lekce/${cisloLekce + 1}`}>
+          <Link className="btn" to={`/lekce/${cisloLekce - 1}`}>
             ◀ Předchozí lekce
           </Link>
         )}
