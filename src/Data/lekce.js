@@ -12,18 +12,21 @@ export const lekce = [
 
       {
         podtitulek: 'Zapiš si vše, co o svém povolání víš',
-        text: `Máš už oči otevřené? Dobře, pokračujeme dál. Vezmi papír a tužku a svoji představu si pečlivě zapiš. Zapiš si to co slyšíš, co vidíš, co cítíš. Zapiš vše v přítomném čase.`,
+        text: `Máš už oči otevřené? Dobře, pokračujeme dál. Vezmi papír a tužku a svoji představu si pečlivě zapiš. Zapiš si to, co slyšíš, co vidíš, co cítíš. Zapiš vše v přítomném čase.`,
       },
       {
         podtitulek: 'Výběr střední školy je teď mnohem snazší',
-        text: `Pokud byla tvá práce pečlivá, věnoval/a jsi sám/sama sobě obrovský dar. Byla-li představa dostatečně věrohodná, víš přesně, za čím máš jít. Tvoje vnitřní motivace má pevné základy. Otázka, jak vybrat střední školu už najednou není středem vesmíru, je to jen krok na cestě.`,
+        text: `Pokud byla tvá práce pečlivá, věnoval/a jsi sám/sama sobě obrovský dar. Byla-li představa dostatečně věrohodná, víš přesně, za čím máš jít. Tvoje vnitřní motivace má pevné základy. Otázka, jak vybrat střední školu, už najednou není středem vesmíru, je to jen krok na cestě.`,
       },
 
       {
         titulek: 'Ty to zvládneš',
         text: `Vím, že vybíráš střední školu a už to je docela stresující. Chvíli si odpočiň, zaměř svoji pozornost jinam.
-        Až se vrátíš, zkus si rovnou vybrat vysokou školu. Proboha proč? Vždyť ani nejsem na střední, nevím jestli ji zvládnu a mám si rovnou vybírat vysokou??! Nechci tě naštvat, jen vím, že potřebuješ vědět, jestli máš šanci se ze střední školy dostat bez větších problémů na vysokou.
-        P.S: A můžeš být klidný/á, když víš, co chceš dělat, všechny překážky překonáš mnohem snáze.
+        Až se vrátíš, zkus si rovnou vybrat vysokou školu. Proboha proč? Vždyť ani nejsem na střední, nevím jestli ji zvládnu a mám si rovnou vybírat vysokou??! Nechci tě naštvat, jen vím, že potřebuješ vědět, jestli máš šanci se ze střední školy dostat bez větších problémů na vysokou.`,
+      },
+      {
+        text: `
+        P.S.: A můžeš být klidný/á, když víš, co chceš dělat, všechny překážky překonáš mnohem snáze.
         `,
       },
     ],
@@ -38,14 +41,23 @@ export const lekce = [
     content: [
       {
         podtitulek: 'Důležitý seznam k výběru střední školy',
-        text: `Víš přesně, co chceš dělat. Napiš si, co je pro tuto činnost důležité. Potřebuješ získat odborné vědomosti? Je nutné dostat nějaké povolení nebo licenci? Jakou vlastnost při činnosti nejvíce uplatníš? Dej si na čas. Věnuj psaní tolik, kolik potřebuješ. Děláš to pro sebe.
+        text: `Víš přesně, co chceš dělat. Napiš si, co je pro tuto činnost důležité. Potřebuješ získat odborné vědomosti? Je nutné dostat nějaké povolení nebo licenci? Jakou vlastnost při činnosti nejvíce uplatníš? Dej si na čas. Věnuj psaní tolik, kolik potřebuješ. Děláš to pro sebe.`,
+      },
+      {
+        text: `
         Máš v rukou seznam, který ti přesně odpovídá na otázku, jak vybrat střední školu. Proč? Protože jediné, co od školy potřebuješ, je rozvoj. A ty víš přesně, co potřebuješ a chceš rozvíjet. 😉`,
       },
 
       {
         podtitulek: 'Oslov lidi, kteří tvojí vysněnou práci dělají už dnes',
-        text: `Oslovit lidi, kteří tvojí vysněnou práci už dělají, je dobré ze dvou důvodů. 
-        Zaprvé se seznámíš s někým v oboru, kde můžeš získat cenné rady a třeba i možnost praxe.
+        text: `Oslovit lidi, kteří tvojí vysněnou práci už dělají, je dobré ze dvou důvodů. `,
+      },
+      {
+        text: `
+        Zaprvé se seznámíš s někým v oboru, kde můžeš získat cenné rady a třeba i možnost praxe.`,
+      },
+      {
+        text: `
         Zadruhé si otestuješ, že tvá představa se může uskutečnit.
         Někdy jsou naše představy jednoduše chabé. Třeba tě vůbec nemusí napadnout, že většina vysněné práce je složená z činností, které dělat nechceš. V tom ti právě pomůže osobní setkání. 
         Ptej se a pečlivě sleduj. Třeba zjistíš, že na danou práci prostě nemáš žaludek. Chceš příklad? Nesnášíš manipulaci? Potom tě asi odradí práce v reklamě, která je na manipulaci vystavěna.
@@ -58,12 +70,17 @@ export const lekce = [
         „Představa budoucnosti určuje naši přítomnost.“
         
         Pokud opravdu dobře vidíš něco, co ještě v reálném světě neexistuje, dokážeš to svojí pozorností do reality dostat. V tom je základ veškerých vynálezů, technologií, pokroků.
-        To je přirozený vývoj.
+        To je přirozený vývoj.`,
+      },
+      {
+        text: `
         
-        Mluví se o tom, že přibližně 65 % pracovních pozic, na kterých budou pracovat dnešní děti (které dnes navštěvují školku nebo první stupeň základní školy) ještě ani neexistují. Takže máš-li pocit, že tohle je opravdu i tvůj problém, tak si vyber školu, které tě připraví na zaměstnání, které se představě blíží.
+        Mluví se o tom, že přibližně 65 % pracovních pozic, na kterých budou pracovat dnešní děti (které dnes navštěvují školku nebo první stupeň základní školy) ještě ani neexistují. Takže máš-li pocit, že tohle je opravdu i tvůj problém, tak si vyber školu, které tě připraví na zaměstnání, které se představě blíží.`,
+      },
+      {
+        text: `
         
-        Dám ti příklad… Přemýšlíš o tom, že by bylo skvělý cestovat po celém světě jako hologram? Ano, tak toto dnes opravdu není možné, ale někdy v budoucnu? Kdo ví… Baví tě na té představě cestování? Jdi studovat cestovní ruch. Baví tě představa, že se podílíš na technologii, která to umožní? Jdi studovat techniku ;-)
-        
+        Dám ti příklad… Přemýšlíš o tom, že by bylo skvělý cestovat po celém světě jako hologram? Ano, tak toto dnes opravdu není možné, ale někdy v budoucnu? Kdo ví… Baví tě na té představě cestování? Jdi studovat cestovní ruch. Baví tě představa, že se podílíš na technologii, která to umožní? Jdi studovat techniku. 😉        
         `,
       },
     ],
@@ -97,7 +114,10 @@ export const lekce = [
       {
         podtitulek: 'Ptej se sám sebe: Co mi dodává energii?',
         text: `Zkus to znovu. Jak zjistit na co mám talent? Máš už seznam slabých stránek? Pokud ano, tak víš, jak na to.
-        Najdi si klidné místo, požádej okolí, ať tě nikdo neruší. Nebo jdi do přírody, tam se totiž náramně dobře „přemýšlí.“ Přemýšlí není úplně ten správný výraz, protože potřebujeme, abychom se naopak dostali nad myšlenky. Když sami sobě pokládáme otázky, dáváme prostor intuici, nebo-li hlubokému myšlení. Tam se zpracovává obrovské množství dat, zážitků, prožitků,…
+        Najdi si klidné místo, požádej okolí, ať tě nikdo neruší. Nebo jdi do přírody, tam se totiž náramně dobře „přemýšlí.“ Přemýšlí není úplně ten správný výraz, protože potřebujeme, abychom se naopak dostali nad myšlenky. Když sami sobě pokládáme otázky, dáváme prostor intuici, nebo-li hlubokému myšlení. Tam se zpracovává obrovské množství dat, zážitků, prožitků,…`,
+      },
+      {
+        text: `
         Připrav se proto na to, že se odpověď nedostaví hned. Trvá to, obrň se trpělivostí. Odměnou ti bude, že dostaneš odpovědi, které jinou cestou nezískáš, dokonce ani za peníze. Na co mám talent? Co mi dodává energii? Co mě dokázalo nadchnout? Před čím jsem žasnul?
         `,
       },
@@ -111,7 +131,7 @@ export const lekce = [
       },
       {
         podtitulek: 'Už vím, o svých nadáních',
-        text: `Počítám, že když jsi se dočetl až sem, už víš o svých talentech. Talent nemusí být jeden veliký, může být víc malých, které spojením vytvoří něco božího.
+        text: `Počítám, že když jsi dočetl až sem, už víš o svých talentech. Talent nemusí být jeden veliký, může být víc malých, které spojením vytvoří něco božího.
       Vědět o svých talentech je životně důležité.
       Jeden z velkých milníků máš za sebou! Gratuluji! 🙂
       `,
@@ -127,7 +147,7 @@ export const lekce = [
     content: [
       {
         podtitulek: 'Vyber školu, kde zažiješ obrovský růst rozvoj a podporu',
-        text: `I kdyby byla škola na druhé straně republiky, jeď se do ní nejdříve podívat a promluv si s lidmi kteří na ní studují. Jaká na škole panuje atmosféra? Jaké slovo mají na škole studenti? Jaké programy škola organizuje pro přípravu na vysokou školu? Probíhá na škole praxe?`,
+        text: `I kdyby byla škola na druhé straně republiky, jeď se do ní nejdříve podívat a promluv si s lidmi, kteří na ní studují. Jaká na škole panuje atmosféra? Jaké slovo mají na škole studenti? Jaké programy škola organizuje pro přípravu na vysokou školu? Probíhá na škole praxe?`,
       },
 
       {
@@ -143,9 +163,12 @@ export const lekce = [
       },
       {
         titulek: 'Budování zdravého přístupu k práci',
-        text: `Více než cokoli jiného je způsob, jakým přistupuješ k práci. Ani ta nejvíc boží práce není vždycky jen zábavná, akční, dechberoucí. Najdou se chvíle, které tě budou vytáčet, můžeš pochybovat. Co je důležité? Tvůj přístup k práci. Schopnost milovat to, co právě děláš. Ať je to cokoli, v čem vidíš smysl. Jedna z největších lží dneška je motto: Najdi si práci, kterou miluješ. Bullshit.
+        text: `Více než cokoli jiného je způsob, jakým přistupuješ k práci. Ani ta nejvíc boží práce není vždycky jen zábavná, akční, dechberoucí. Najdou se chvíle, které tě budou vytáčet, můžeš pochybovat. Co je důležité? Tvůj přístup k práci. Schopnost milovat to, co právě děláš. Ať je to cokoli, v čem vidíš smysl. `,
+      },
+      {
+        text: `Jedna z největších lží dneška je motto: Najdi si práci, kterou miluješ. Bullshit.
         Stále a znovu dokola miluj to, co děláš. 🙂
-        Našel jsi na nějaké škole alespoň náznak toho, že ti je schopná pomoci milovat to, co učí? 🙂
+        Našel jsi na nějaké škole alespoň náznak toho, že ti je schopná pomoci milovat to, co učí? 
         `,
       },
     ],
@@ -158,9 +181,15 @@ export const lekce = [
     lessonDownloadURL: '/public/5_prac.list.pdf',
     content: [
       {
-        text: `Zase ty známky. Nemusíš se bát, nebudeme psát test.:) Otázka, jak prospívám, je důležitá z jiného důvodu. Dá ti totiž zpětnou vazbu na to, zda umíš zamakat, když je třeba a překonat překážky.
+        text: `Zase ty známky. Nemusíš se bát, nebudeme psát test.🙂 Otázka, jak prospívám, je důležitá z jiného důvodu. Dá ti totiž zpětnou vazbu na to, zda umíš zamakat, když je třeba a překonat překážky.
 
-      Může se stát, že pro tebe bude střední škola obtížnější než základní. Dokážeš zatnout zuby a makat? A dokážeš to dlouhodobě? Přiznat si, že si to ani nedokážu představit je také dobré. Někdo prostě nejde na výkony a motivací pro něj je to, že vidí smysl v tom, co dělá. Ani jedno z toho není dobré ani špatné. Jsou to jen otázky, a když na ně odpovíš popravdě, budeš o sobě vědět víc. Bacha na lenost. Tu teď musíme odložit stranou, to není dobrý rádce. ;)
+      Může se stát, že pro tebe bude střední škola obtížnější než základní. Dokážeš zatnout zuby a makat? A dokážeš to dlouhodobě? Přiznat si, že si to ani nedokážu představit, je také dobré.`,
+      },
+      {
+        text: ` Někdo prostě nejde na výkony a motivací pro něj je to, že vidí smysl v tom, co dělá. Ani jedno z toho není dobré ani špatné. Jsou to jen otázky a když na ně odpovíš popravdě, budeš o sobě vědět víc. Bacha na lenost. Tu teď musíme odložit stranou, to není dobrý rádce. 😉`,
+      },
+      {
+        text: `
       
       Dokážu a chci dlouhodobě pracovat víc, než mám ve zvyku?
       
@@ -180,43 +209,115 @@ export const lekce = [
     content: [
       {
         podtitulek: 'Chci bydlet doma',
-        text: `plus
-        Neutrácíš za cestovné a ubytování
-        Můžeš pokračovat v tvých oblíbených aktivitách na stejném místě
-        Můžeš se častěji potkávat se starými známými
-        Můžeš předpokládat, že máš doma all-inclusive
-        mínus
-        Omezený výběr škol
-        Musíš sám hledat nové příležitosti
-        Je těžší učit se samostatnosti, když jsi doma
-        Čekají na tebe domácí povinnosti
+        text: `PLUSY`,
+      },
+      {
+        text: `
+        Neutrácíš za cestovné a ubytování.`,
+      },
+      {
+        text: `
+        Můžeš pokračovat v tvých oblíbených aktivitách na stejném místě.`,
+      },
+      {
+        text: `
+        Můžeš se častěji potkávat se starými známými.`,
+      },
+      {
+        text: `
+        Můžeš předpokládat, že máš doma all-inclusive.`,
+      },
+      {
+        text: `
+        MÍNUSY`,
+      },
+      {
+        text: `
+        Omezený výběr škol.`,
+      },
+      {
+        text: `
+        Musíš sám hledat nové příležitosti.`,
+      },
+      {
+        text: `
+        Je těžší učit se samostatnosti, když jsi doma.`,
+      },
+      {
+        text: `
+        Čekají na tebe domácí povinnosti.
         `,
       },
 
       {
         podtitulek: 'Chci se osamostatnit a žít na intru',
-        text: `plus
-        Naučíš se samostatnosti
-        Potkáš nové lidi, se kterými můžeš trávit více času
-        Večery jsou pro tebe a tvé kamarády
-        mínus
-        Ztrácíš all-inclusive domácí zázemí
-        Musíš plánovat, kdy se uvidíš s rodinou a starými kamarády
-        Intr není hotel, takže tě čekají povinnosti a omezená svoboda
+        text: `PLUSY`,
+      },
+      {
+        text: `
+        Naučíš se samostatnosti.`,
+      },
+      {
+        text: `
+        Potkáš nové lidi, se kterými můžeš trávit více času.`,
+      },
+      {
+        text: `
+        Večery jsou pro tebe a tvé kamarády.`,
+      },
+      {
+        text: `
+        MÍNUSY`,
+      },
+      {
+        text: `
+        Ztrácíš all-inclusive domácí zázemí.`,
+      },
+      {
+        text: `
+        Musíš plánovat, kdy se uvidíš s rodinou a starými kamarády.`,
+      },
+      {
+        text: `
+        Intr není hotel, takže tě čekají povinnosti a omezená svoboda.`,
+      },
+      {
+        text: `
         
         `,
       },
 
       {
         podtitulek: 'Chci na střední do zahraničí',
-        text: `plus
-        Vybral sis tu nejlepší školu, kterou jsi chtěl
-        Máš tu nejlepší příležitost naučit se jiný jazyk, možná i několik jazyků najednou
-        Díky setkání s jinou mentalitou se ti může rozšířit vnímání světa. Uvidíš, že na jednu událost existuje mnoho pohledů = každý má svoji pravdu
-        Nejlepší trénink k samostatnosti
-        mínus
-        Je to sakra drahé, avšak existují stipendia
-        Ztrácíš osobní kontakt s rodinou a přáteli
+        text: `PLUSY`,
+      },
+      {
+        text: `
+        Vybral sis tu nejlepší školu, kterou jsi chtěl.`,
+      },
+      {
+        text: `
+        Máš tu nejlepší příležitost naučit se jiný jazyk, možná i několik jazyků najednou.`,
+      },
+      {
+        text: `
+        Díky setkání s jinou mentalitou se ti může rozšířit vnímání světa. Uvidíš, že na jednu událost existuje mnoho pohledů = každý má svoji pravdu.`,
+      },
+      {
+        text: `
+        Nejlepší trénink k samostatnosti.`,
+      },
+      {
+        text: `
+        MÍNUSY`,
+      },
+      {
+        text: `
+        Je to sakra drahé, avšak existují stipendia.`,
+      },
+      {
+        text: `
+        Ztrácíš osobní kontakt s rodinou a přáteli.
         `,
       },
     ],

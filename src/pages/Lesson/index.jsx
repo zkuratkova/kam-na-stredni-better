@@ -38,7 +38,7 @@ const Lesson = () => {
             ◀ Předchozí lekce
           </Link>
         )}
-        {cisloLekce === 6 ? (
+        {cisloLekce === lekce.length ? (
           <Link className="btn" to={'/'}>
             Konec kurzu, zpět na hlavní stranu ▶
           </Link>
