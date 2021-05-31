@@ -8,6 +8,7 @@
   margin: 0 0.3rem;
 }
 
+.active,
 .nav__link:hover,
 .nav__link:focus {
   color: #ee003c;

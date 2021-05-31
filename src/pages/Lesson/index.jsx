@@ -54,7 +54,11 @@ const Lesson = () => {
           K lekci si můžeš stáhnout pracovní list v PDF, své postřehy a poznámky
           si pak můžeš zapisovat přímo do něj. Odkaz je tady:
         </p>
-        <a href={aktualniLekce.lessonDownloadURL} className="btn" download>
+        <a
+          href={aktualniLekce.lessonDownloadURL}
+          className="btn download__btn"
+          download
+        >
           Pracovní list PDF
         </a>
       </div>

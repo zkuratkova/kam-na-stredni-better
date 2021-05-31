@@ -8,11 +8,7 @@
   line-height: 1.6;
 }
 
-.link-lesson__btn {
-  display: block;
-  margin: 0 auto;
-}
-
+.link-lesson__btn,
 .contacts__btn,
 .download__btn {
   display: inline-block;
@@ -92,7 +88,7 @@
 
 .quiz {
   background-color: #d5dfe5;
-  padding: 0.5rem;
+  padding: 1rem;
   margin: 4rem 0;
 }
 
@@ -122,10 +118,9 @@
   font-weight: 800;
 }
 
-.quiz__answer,
 .quiz__btn {
   text-align: left;
-  padding: 0.7rem 1rem;
+  padding: 0.7rem 0;
 }
 
 .btn__group {
@@ -159,7 +154,7 @@
   font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
   border: none;
-  margin: 0.2rem;
+  margin: 0.2rem 0;
   border-radius: 5px;
   font-weight: 500;
   text-decoration: none;
