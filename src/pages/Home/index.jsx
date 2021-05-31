@@ -30,7 +30,7 @@ const Home = () => {
           připravili online kurz, který ti usnadní přemýšlení. Klikni na odkaz a
           udělej první krok k výběru správné školy hned teď.
         </p>
-        <Link className="btn" to={'/souhrn-lekci'}>
+        <Link className="btn" to={'/lekce'}>
           Vstoupit do kurzu
         </Link>
       </div>
