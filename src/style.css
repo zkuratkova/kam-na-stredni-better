@@ -8,42 +8,6 @@
   line-height: 1.6;
 }
 
-.link-lesson__btn,
-.contacts__btn,
-.download__btn {
-  display: inline-block;
-  width: 40%;
-  margin-left: 30%;
-  margin-right: 30%;
-  text-align: center;
-}
-
-.lesson__title,
-.intro__title,
-.informations__title,
-.contacts__title {
-  text-align: center;
-}
-
-.lesson__title--main,
-.home__title--main {
-  color: #ee003c;
-  text-align: center;
-}
-
-.contact-main,
-.worksheet-download,
-.link-lesson {
-  background-color: #d5dfe5;
-  margin: 2.5rem 0;
-  padding: 0.5rem;
-}
-
-.worksheet-download__text,
-.link-lesson__text {
-  padding: 0 1rem;
-}
-
 .video__container {
   position: relative;
   overflow: hidden;
@@ -60,74 +24,6 @@
   border: 0;
 }
 
-.intro__title--underlined::after,
-.contacts__title--underlined::after,
-.lesson__title--underlined::after {
-  content: '';
-  display: block;
-  background-color: #ee003c;
-  width: 75%;
-  height: 0.3rem;
-  margin: 0.5rem 0;
-}
-
-.informations__title--underlined-right::after,
-.lesson__title--underlined-right::after {
-  content: '';
-  display: block;
-  background-color: #ee003c;
-  width: 75%;
-  height: 0.3rem;
-  margin: 0.5rem 25%;
-}
-
-.worksheet-download {
-  margin-top: 1rem;
-  padding: 1rem;
-}
-
-.quiz {
-  background-color: #d5dfe5;
-  padding: 1rem;
-  margin: 4rem 0;
-}
-
-.quiz--right {
-  background-color: #0c7c5865;
-}
-
-.quiz--wrong {
-  background-color: #ee003b59;
-}
-
-.quiz__text {
-  padding: 0.4rem;
-  margin: 0 0 1rem 0;
-  border-radius: 5px;
-}
-
-.quiz__text--right {
-  background-color: #0c7c5865;
-}
-
-.quiz__text--wrong {
-  background-color: #ee003ba1;
-}
-
-.quiz__question {
-  font-weight: 800;
-}
-
-.quiz__btn {
-  text-align: left;
-  padding: 0.7rem 0;
-}
-
-.btn__group {
-  text-align: center;
-  display: flex;
-}
-
 .btn {
   padding: 0.7rem;
   font-size: 1rem;
@@ -140,6 +36,12 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+.btn__group {
+  text-align: center;
+  display: flex;
+}
+
 .btn__group .btn:last-child {
   margin-left: auto;
 }
@@ -147,60 +49,6 @@
 .btn--secondary {
   background-color: #ffffff;
   color: #ee003c;
-}
-
-.btn--quiz {
-  padding: 0.7rem;
-  font-size: 1rem;
-  font-family: 'Montserrat', sans-serif;
-  border: none;
-  margin: 0.2rem 0;
-  border-radius: 5px;
-  font-weight: 500;
-  text-decoration: none;
-  cursor: pointer;
-  background-color: #bec6cc;
-  color: #000000;
-  width: 100%;
-}
-
-.btn--quiz:disabled {
-  cursor: default;
-  color: #5f5f5f;
-}
-
-.btn--answered {
-  margin: 0.2rem;
-  padding: 0.7rem;
-  font-size: 1rem;
-  font-family: 'Montserrat', sans-serif;
-  border: none;
-  color: #ffffff;
-  border-radius: 5px;
-  font-weight: 500;
-  background-color: #ee003c;
-  text-decoration: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-.btn--answered-right {
-  margin: 0.2rem;
-  padding: 0.7rem;
-  font-size: 1rem;
-  font-family: 'Montserrat', sans-serif;
-  border: none;
-  color: #ffffff;
-  border-radius: 5px;
-  font-weight: 500;
-  background-color: #0c7c58;
-  text-decoration: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-.btn--right {
-  background-color: #0c7c58;
 }
 
 .btn:hover {
@@ -211,40 +59,9 @@
   background-color: #d5dfe5;
 }
 
-.btn--right:hover {
-  background-color: #0b6448;
-}
-
-.btn--quiz:hover {
-  background-color: #9ca2a7;
-}
-
-.btn--answered:hover {
-  background-color: #c40131;
-  color: #ffffff;
-}
-
 @media screen and (min-width: 600px) {
-  .quiz__text {
-    display: inline-block;
-    margin: 0 2rem 0 0;
-  }
-
-  .lesson,
-  .home {
-    padding: 0 2rem;
-  }
-
-  .worksheet-download__text {
-    text-align: left;
-  }
-
   .video__container {
     margin-bottom: 2rem;
-  }
-
-  .worksheet-download {
-    margin-top: 2rem;
   }
 }
 

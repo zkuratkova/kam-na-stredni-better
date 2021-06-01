@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { quiz } from '../../Data/quiz';
 import { useParams, Link } from 'react-router-dom';
 import QuizBtn from '../../components/QuizBtn';
+import './style.css';
 
 const Quiz = () => {
   let { id: idLekce } = useParams();

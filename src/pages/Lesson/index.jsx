@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Quiz from '../../components/Quiz';
 import { lekce } from '../../Data/lekce';
+import './style.css';
 
 const Lesson = () => {
   // useParams from react-router-dom

@@ -1,0 +1,45 @@
+.lesson__title {
+  text-align: center;
+}
+
+.lesson__title--main {
+  color: #ee003c;
+  text-align: center;
+}
+
+.lesson__title--underlined::after {
+  content: '';
+  display: block;
+  background-color: #ee003c;
+  width: 75%;
+  height: 0.3rem;
+  margin: 0.5rem 0;
+}
+
+.lesson__title--underlined-right::after {
+  content: '';
+  display: block;
+  background-color: #ee003c;
+  width: 75%;
+  height: 0.3rem;
+  margin: 0.5rem 25%;
+}
+
+.worksheet-download {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .lesson {
+    padding: 0 2rem;
+  }
+
+  .worksheet-download__text {
+    text-align: left;
+  }
+
+  .worksheet-download {
+    margin-top: 2rem;
+  }
+}

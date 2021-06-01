@@ -1,0 +1,72 @@
+.contacts__btn,
+.download__btn {
+  display: inline-block;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+}
+
+.intro__title,
+.informations__title,
+.contacts__title {
+  text-align: center;
+}
+
+.home__title--main {
+  color: #ee003c;
+  text-align: center;
+}
+
+.contact-main,
+.worksheet-download,
+.link-lesson {
+  background-color: #d5dfe5;
+  margin: 2.5rem 0;
+  padding: 0.5rem;
+}
+
+.worksheet-download__text,
+.link-lesson__text {
+  padding: 0 1rem;
+}
+
+.link-lesson__btn {
+  display: inline-block;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+}
+
+.informations__btn {
+  display: block;
+  margin: 0.3rem auto;
+  text-align: center;
+  width: 40%;
+}
+
+.intro__title--underlined::after,
+.contacts__title--underlined::after {
+  content: '';
+  display: block;
+  background-color: #ee003c;
+  width: 75%;
+  height: 0.3rem;
+  margin: 0.5rem 0;
+}
+
+.informations__title--underlined-right::after {
+  content: '';
+  display: block;
+  background-color: #ee003c;
+  width: 75%;
+  height: 0.3rem;
+  margin: 0.5rem 25%;
+}
+
+@media screen and (min-width: 600px) {
+  .home {
+    padding: 0 2rem;
+  }
+}

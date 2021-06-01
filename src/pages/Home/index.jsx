@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Contact from '../../components/Contact';
+import './style.css';
 
 const Home = () => {
   return (
@@ -43,10 +44,16 @@ const Home = () => {
           odkazy níže, ve kterých najdeš úplné přehledy škol a jejich oborů.
         </p>
 
-        <a href="https://www.atlasskolstvi.cz/stredni-skoly" className="btn">
+        <a
+          href="https://www.atlasskolstvi.cz/stredni-skoly"
+          className="btn informations__btn"
+        >
           Atlas školství
         </a>
-        <a href="https://www.stredniskoly.cz/" className="btn">
+        <a
+          href="https://www.stredniskoly.cz/"
+          className="btn informations__btn"
+        >
           Přehled středních škol
         </a>
       </section>

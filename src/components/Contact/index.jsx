@@ -21,7 +21,9 @@ const Contact = () => {
               dějí. Velkou radost mu dělá podporující manželka a dvě krásné
               dcerky.
             </p>
-            <p className="contact__mail">e-mail: vflicek@probud.cz</p>
+            <a className="contact__mail" href="mailto:vflicek@probud.cz">
+              e-mail: vflicek@probud.cz
+            </a>
           </div>
         </div>
       </div>
@@ -40,8 +42,12 @@ const Contact = () => {
               prostoru a respektu. S manželkou Jitkou vychovává dva zvídavé,
               zdravé kluky.
             </p>
-            <p className="contact__mail">e-mail: zsklenar@probud.cz</p>
-            <p className="contact__phone">tel: 777586069</p>
+            <a className="contact__mail" href="mailto:zsklenar@probud.cz">
+              e-mail: zsklenar@probud.cz
+            </a>
+            <a className="contact__phone" href="tel:+420777586069">
+              tel: 777586069
+            </a>
           </div>
         </div>
       </div>

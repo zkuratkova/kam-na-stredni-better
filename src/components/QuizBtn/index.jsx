@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './style.css';
 
 const QuizBtn = (props) => {
   //v props budu potřebovat získat hodnotu o tom, jestli je to správná odpověď
@@ -22,7 +23,7 @@ const QuizBtn = (props) => {
             : 'btn--answered'
           : 'btn--quiz'
       }
-      disabled={props.isDisabled}
+      disabled={answered ? true : props.isDisabled}
     >
       {props.answerText}
     </button>
