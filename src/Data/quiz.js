@@ -13,7 +13,7 @@ export const quiz = [
     question: 'Co vše musíš uvažovat při výběru školy?',
     answer1: 'Udělat nyní správné rozhodnutí.',
     answer2:
-      'Musím si udělat soupis všeho, co mě čaká než dosáhnu na vysněnou práci.',
+      'Musím si udělat soupis všeho, co mě čeká než dosáhnu na vysněnou práci.',
     answer3: 'Nemusím nic zvažovat, vyberu si první školu na seznamu.',
     rightAnswer: 1,
   },

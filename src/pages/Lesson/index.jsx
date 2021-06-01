@@ -39,8 +39,8 @@ const Lesson = () => {
           </Link>
         )}
         {cisloLekce === lekce.length ? (
-          <Link className="btn" to={'/'}>
-            Konec kurzu, zpět na hlavní stranu ▶
+          <Link className="btn" to={'/#informations'}>
+            Konec kurzu 🙂 ▶
           </Link>
         ) : (
           <Link className="btn" to={`/lekce/${cisloLekce + 1}`}>
