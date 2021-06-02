@@ -20,6 +20,11 @@
   padding: 0.5rem 0;
 }
 
+.contact__text--hidden {
+  height: 3rem;
+  overflow: hidden;
+}
+
 @media screen and (min-width: 600px) {
   .contact__text {
     margin: 0;

@@ -51,6 +51,20 @@
   color: #ee003c;
 }
 
+.btn--hide {
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  color: #ee003c;
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: #d5dfe5;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0.5rem 1.5rem;
+}
+
 .btn:hover {
   background-color: #c40131;
 }
