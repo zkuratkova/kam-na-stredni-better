@@ -1,7 +1,10 @@
 import React, { Fragment } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 import Quiz from '../../components/Quiz';
 import { lekce } from '../../Data/lekce';
+import arrowRight from './arrow-right.svg';
+import arrowLeft from './arrow-left.svg';
 import './style.css';
 
 const Lesson = () => {
@@ -14,7 +17,7 @@ const Lesson = () => {
   const aktualniLekce = lekce[cisloLekce - 1]; //zobrazení správného prvku v poli
 
   return (
-    <div className="lesson" key={cisloLekce}>
+    <div id="lesson" className="lesson" key={cisloLekce}>
       <h1 className="lesson__title lesson__title--main">
         {aktualniLekce.lessonNumber}
       </h1>
@@ -35,18 +38,25 @@ const Lesson = () => {
       </div>
       <div className="btn__group">
         {cisloLekce === 1 ? null : (
-          <Link className="btn" to={`/lekce/${cisloLekce - 1}`}>
-            ◀ Předchozí lekce
-          </Link>
+          <NavLink
+            className="btn"
+            smooth
+            to={`/lekce/${cisloLekce - 1}#lesson`}
+          >
+            <img src={arrowLeft} width="10" alt="icone arrow left" /> Předchozí
+            lekce
+          </NavLink>
         )}
         {cisloLekce === lekce.length ? (
-          <Link className="btn" to={'/#informations'}>
-            Konec kurzu 🙂 ▶
-          </Link>
+          <NavLink className="btn" smooth to={'/#informations'}>
+            Konec kurzu 🙂{' '}
+            <img src={arrowRight} width="10" alt="icone arrow right" />
+          </NavLink>
         ) : (
-          <Link className="btn" to={`/lekce/${cisloLekce + 1}`}>
-            Následující lekce ▶
-          </Link>
+          <NavLink className="btn" smooth to={`/lekce/${cisloLekce + 1}`}>
+            Následující lekce{' '}
+            <img src={arrowRight} width="10" alt="icone arrow right" />
+          </NavLink>
         )}
       </div>
 

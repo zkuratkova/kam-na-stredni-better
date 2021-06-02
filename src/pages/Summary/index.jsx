@@ -4,7 +4,6 @@ import { cards } from '../../Data/cards';
 import './style.css';
 
 const Summary = () => {
-  console.log(cards);
   return (
     <>
       <div className="summary">

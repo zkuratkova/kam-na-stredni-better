@@ -3,19 +3,19 @@ export const quiz = [
     id: '1',
     question:
       'Jak máš pracovat s představami při hledání vhodné střední školy?',
-    answer1: 'Představím si sebe za 15 let.',
-    answer2: 'Vymýšlím pro sebe 5 bláznivých povolání.',
+    answer1: 'Vymýšlím pro sebe 5 bláznivých povolání.',
+    answer2: 'Představím si sebe za 15 let.',
     answer3: 'Zeptám se rodičů, jaké povolání si pro mě představují.',
-    rightAnswer: 1,
+    rightAnswer: 2,
   },
   {
     id: '2',
     question: 'Co vše musíš uvažovat při výběru školy?',
-    answer1: 'Udělat nyní správné rozhodnutí.',
+    answer1: 'Nemusím nic zvažovat, vyberu si první školu na seznamu.',
     answer2:
       'Musím si udělat soupis všeho, co mě čeká než dosáhnu na vysněnou práci.',
-    answer3: 'Nemusím nic zvažovat, vyberu si první školu na seznamu.',
-    rightAnswer: 1,
+    answer3: 'Udělat nyní správné rozhodnutí.',
+    rightAnswer: 3,
   },
   {
     id: '3',
@@ -40,19 +40,19 @@ export const quiz = [
     id: '5',
     question: 'Jak budeš uvažovat o svém prospěchu při výběru školy?',
     answer1:
-      'Uvážím, jak se mi daří v mém současém studiu a kolik jsem studiu ochotný/á obětovat času.',
+      'Pokud nemám doporučený průměr, o mé vysněné škole vůbec nebudu uvažovat.',
     answer2: 'Na známkách vůbec nezáleží.',
     answer3:
-      'Pokud nemám doporučený průměr, o mé vysněné škole vůbec nebudu uvažovat.',
-    rightAnswer: 1,
+      'Uvážím, jak se mi daří v mém současém studiu a kolik jsem studiu ochotný/á obětovat času.',
+    rightAnswer: 3,
   },
   {
     id: '6',
     question: 'Je důležité, v jaké lokalitě je tvá vysněná škola?',
-    answer1:
+    answer1: 'Důležitější je typ školy, než kde se škola nachází.',
+    answer2:
       'Při výběru školy je vhodné uvážit i zda mi bude vyhovovat lokace školy.',
-    answer2: 'Důležitější je typ školy, než kde se škola nachází.',
     answer3: 'Lokaci školy není potřeba vůbec zvažovat.',
-    rightAnswer: 1,
+    rightAnswer: 2,
   },
 ];

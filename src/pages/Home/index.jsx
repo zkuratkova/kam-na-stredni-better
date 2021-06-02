@@ -5,7 +5,7 @@ import './style.css';
 
 const Home = () => {
   return (
-    <div className="home">
+    <div id="home" className="home">
       <h1 className="home__title home__title--main">Kam na střední</h1>
       <div className="video__container">
         <iframe

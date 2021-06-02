@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 import './style.css';
 
 const Card = (props) => {
@@ -10,9 +10,9 @@ const Card = (props) => {
         <span className="card__number">{props.cardNumber}</span>
       </div>
       <p className="card__text">{props.cardText}</p>
-      <Link to={`/lekce/${props.cardNumber}`} className="btn">
+      <NavLink to={`/lekce/${props.cardNumber}#lesson`} smooth className="btn">
         Otevřít lekci
-      </Link>
+      </NavLink>
     </div>
   );
 };

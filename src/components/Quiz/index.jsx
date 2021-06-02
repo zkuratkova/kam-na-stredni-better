@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { quiz } from '../../Data/quiz';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 import QuizBtn from '../../components/QuizBtn';
 import './style.css';
 
@@ -53,13 +54,17 @@ const Quiz = () => {
                 Super! Máš to správně. Chceš jít dál?
               </p>
               {idLekce === quiz.length ? (
-                <Link className="btn btn--right" to={'/'}>
+                <NavLink className="btn btn--right" smooth to={'/#home'}>
                   zpět na hlavní stranu
-                </Link>
+                </NavLink>
               ) : (
-                <Link className="btn btn--right" to={`/lekce/${idLekce + 1}`}>
+                <NavLink
+                  className="btn btn--right"
+                  smooth
+                  to={`/lekce/${idLekce + 1}#lesson`}
+                >
                   Další lekce
-                </Link>
+                </NavLink>
               )}
             </>
           )}
@@ -69,26 +74,34 @@ const Quiz = () => {
                 Ou. Chyba. Zkusíš to znovu?
               </p>
               {idLekce === quiz.length ? (
-                <Link className="btn" to={'/'}>
+                <NavLink className="btn" smooth to={'/#home'}>
                   zpět na hlavní stranu
-                </Link>
+                </NavLink>
               ) : (
-                <Link className="btn" to={`/lekce/${idLekce + 1}`}>
+                <NavLink
+                  className="btn"
+                  smooth
+                  to={`/lekce/${idLekce + 1}#lesson`}
+                >
                   Další lekce
-                </Link>
+                </NavLink>
               )}
             </>
           )}
           {answerResult === 'not-answered' && (
             <>
               {idLekce === quiz.length ? (
-                <Link className="btn" to={'/'}>
+                <NavLink className="btn" smooth to={'/#home'}>
                   zpět na hlavní stranu
-                </Link>
+                </NavLink>
               ) : (
-                <Link className="btn" to={`/lekce/${idLekce + 1}`}>
+                <NavLink
+                  className="btn"
+                  smooth
+                  to={`/lekce/${idLekce + 1}#lesson`}
+                >
                   Další lekce
-                </Link>
+                </NavLink>
               )}
             </>
           )}
