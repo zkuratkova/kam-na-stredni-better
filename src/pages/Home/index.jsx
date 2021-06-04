@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 import Contact from '../../components/Contact';
 import './style.css';
 
@@ -31,17 +31,18 @@ const Home = () => {
           připravili online kurz, který ti usnadní přemýšlení. Klikni na odkaz a
           udělej první krok k výběru správné školy hned teď.
         </p>
-        <Link className="btn link-lesson__btn" to={'/lekce'}>
+        <NavLink className="btn entry__btn" smooth to={'lekce/#summary'}>
           Vstoupit do kurzu
-        </Link>
+        </NavLink>
       </div>
       <section id="informations" className="informations">
         <h2 className="informations__title informations__title--underlined-right">
           Užitečné informace
         </h2>
         <p className="informations__text">
-          Už víš, kam by ses chtěl po základní škole vydat? Paráda! Koukni na
-          odkazy níže, ve kterých najdeš úplné přehledy škol a jejich oborů.
+          Už znáš svoje nadání? Paráda! Tvoje nadání je jako kompas, kterému
+          můžeš plně důvěřovat. Koukni na odkazy níže, ve kterých najdeš úplné
+          přehledy škol a jejich oborů.
         </p>
 
         <a
@@ -56,6 +57,13 @@ const Home = () => {
         >
           Přehled středních škol
         </a>
+        <p className="informations__text">
+          Už víš jaká škola u tebe vyhrála? Teď už jen zavčasu vyplnit přihlášku
+          a zajít na přijímačky. Pokud z tvého výběru vzešla škola, kde se
+          dělají talentové zkoušky, je třeba přihlášku odevzdat dříve, a to už
+          30. listopadu. Přihlášky na školy bez talentové zkoušky můžeš posílat
+          až do 1. března.
+        </p>
       </section>
       <section id="contacts" className="contacts">
         <h2 className="contacts__title contacts__title--underlined">
@@ -70,10 +78,10 @@ const Home = () => {
           cestu, kterou se po základní škole vydáš.
         </p>
         <a
-          href="https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUpaSFoxcUwzQ25hfGRlZmF1bHR8YzE1ZjY4ZGViY2YxYjJiNDE1YTQ4YTlkYTkxNDMwZmE"
+          href="https://www.probud.cz/pomoc-s-vyberem-stredni-skoly-online-schuzka/#kontakt"
           className="btn contacts__btn"
         >
-          Vyhledat termín konzultace online
+          Chci konzultovat
         </a>
         <Contact />
         <div className="contact-main">

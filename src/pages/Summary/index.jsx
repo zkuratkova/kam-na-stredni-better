@@ -1,12 +1,13 @@
 import React from 'react';
 import Card from '../../components/Card';
+
 import { cards } from '../../Data/cards';
 import './style.css';
 
 const Summary = () => {
   return (
     <>
-      <div className="summary">
+      <div id="summary" className="summary">
         <h1 className="summary__title summary__title--main">Seznam lekcí</h1>
         <div className="container--summary">
           {cards.map((card) => {
