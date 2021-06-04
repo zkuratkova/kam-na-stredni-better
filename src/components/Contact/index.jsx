@@ -1,5 +1,4 @@
 import React from 'react';
-import HideText from '../HideText';
 import './style.css';
 import flicek from './Václav-Flíček_profil-300x200.jpg';
 import sklenar from './Zdeněk-Sklenář-1.jpg';
@@ -14,7 +13,14 @@ const Contact = () => {
             <img className="contact__img" src={flicek} alt="Václav Flíček" />
           </div>
           <div className="column--contact">
-            <HideText />
+            <p className="contact__text">
+              Miluje příběhy, a díky tomu vystudoval filmovou školu. Schopnost
+              vyprávění maximálně zúročuje hlavně při přípravě her a audio
+              příběhů. Zajímá se o propojování lidí. Uvědomil si, v čem spočívá
+              význam slova spolupráce a těší se z pokroků, které se díky tomu
+              dějí. Velkou radost mu dělá podporující manželka a dvě krásné
+              dcerky.
+            </p>
             <a className="contact__mail" href="mailto:vflicek@probud.cz">
               e-mail: vflicek@probud.cz
             </a>
