@@ -70,7 +70,7 @@ const Home = () => {
           Kontakty
         </h2>
         <p className="contacts__text">
-          Prošel sis všechny videa, vyplnil pracovní listy, přemýšlení ti
+          Prošel sis všechna videa, vyplnil pracovní listy, přemýšlení ti
           zabralo hodně času, ale výsledek stále nikde a přihláška je stále
           prázdná? Nevěš hlavu. My tě v tom samotného nenecháme. Níže najdeš
           všechny potřebné kontakty. Obrať se na nás emailem, zavolej nám, nebo
