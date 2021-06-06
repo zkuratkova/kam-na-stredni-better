@@ -1,0 +1,14 @@
+.worksheet-download {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .worksheet-download__text {
+    text-align: left;
+  }
+
+  .worksheet-download {
+    margin-top: 2rem;
+  }
+}

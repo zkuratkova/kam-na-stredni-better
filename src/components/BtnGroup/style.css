@@ -1,0 +1,8 @@
+.btn__group {
+  text-align: center;
+  display: flex;
+}
+
+.btn__group .btn:last-child {
+  margin-left: auto;
+}

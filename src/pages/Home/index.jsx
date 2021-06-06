@@ -1,22 +1,14 @@
 import React from 'react';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import Contact from '../../components/Contact';
+import Video from '../../components/Video';
 import './style.css';
 
 const Home = () => {
   return (
     <div id="home" className="home">
       <h1 className="home__title home__title--main">Kam na střední</h1>
-      <div className="video__container">
-        <iframe
-          className="video__video"
-          src="https://www.youtube.com/embed/AtvGpBC_6Ew"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
+      <Video source="https://www.youtube.com/embed/AtvGpBC_6Ew" />
       <section className="intro">
         <h2 className="intro__title intro__title--underlined">Online kurz</h2>
         <p className="intro__text">

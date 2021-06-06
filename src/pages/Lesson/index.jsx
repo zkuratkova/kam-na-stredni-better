@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 import { useParams } from 'react-router-dom';
-import { NavHashLink as NavLink } from 'react-router-hash-link';
 import Quiz from '../../components/Quiz';
+import Video from '../../components/Video';
+import Worksheet from '../../components/Worksheet';
+import BtnGroup from '../../components/BtnGroup';
 import { lekce } from '../../Data/lekce';
-import arrowRight from './arrow-right.svg';
-import arrowLeft from './arrow-left.svg';
 import './style.css';
 
 const Lesson = () => {
@@ -25,54 +25,9 @@ const Lesson = () => {
       <h2 className="lesson__title lesson__title--underlined">
         {aktualniLekce.lessonTitleMain}
       </h2>
-
-      <div className="video__container">
-        <iframe
-          className="video__video"
-          src={aktualniLekce.lessonVideo}
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
-      <div className="btn__group">
-        {cisloLekce === 1 ? null : (
-          <NavLink
-            className="btn"
-            smooth
-            to={`/lekce/${cisloLekce - 1}#lesson`}
-          >
-            <img src={arrowLeft} width="10" alt="icone arrow left" /> Předchozí
-            lekce
-          </NavLink>
-        )}
-        {cisloLekce === lekce.length ? (
-          <NavLink className="btn" smooth to={'/#informations'}>
-            Konec kurzu 🙂{' '}
-            <img src={arrowRight} width="10" alt="icone arrow right" />
-          </NavLink>
-        ) : (
-          <NavLink className="btn" smooth to={`/lekce/${cisloLekce + 1}`}>
-            Následující lekce{' '}
-            <img src={arrowRight} width="10" alt="icone arrow right" />
-          </NavLink>
-        )}
-      </div>
-
-      <div className="worksheet-download">
-        <p className="worksheet-download__text">
-          K lekci si můžeš stáhnout pracovní list v PDF, své postřehy a poznámky
-          si pak můžeš zapisovat přímo do něj. Odkaz je tady:
-        </p>
-        <a
-          href={aktualniLekce.lessonDownloadURL}
-          className="btn download__btn"
-          download
-        >
-          Pracovní list PDF
-        </a>
-      </div>
+      <Video source={aktualniLekce.lessonVideo} />
+      <BtnGroup cisloLekce={cisloLekce} lekce={lekce} />
+      <Worksheet url={aktualniLekce.lessonDownloadURL} />
       {aktualniLekce.content.map((content, index) => {
         return (
           <Fragment key={index}>
@@ -101,7 +56,7 @@ const Lesson = () => {
         );
       })}
 
-      <Quiz />
+      <Quiz idLekce={cisloLekce} />
     </div>
   );
 };

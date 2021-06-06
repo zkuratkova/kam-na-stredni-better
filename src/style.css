@@ -37,15 +37,6 @@
   cursor: pointer;
 }
 
-.btn__group {
-  text-align: center;
-  display: flex;
-}
-
-.btn__group .btn:last-child {
-  margin-left: auto;
-}
-
 .btn--secondary {
   background-color: #ffffff;
   color: #ee003c;

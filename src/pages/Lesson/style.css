@@ -25,21 +25,8 @@
   margin: 0.5rem 25%;
 }
 
-.worksheet-download {
-  margin-top: 1rem;
-  padding: 1rem;
-}
-
 @media screen and (min-width: 600px) {
   .lesson {
     padding: 0 2rem;
-  }
-
-  .worksheet-download__text {
-    text-align: left;
-  }
-
-  .worksheet-download {
-    margin-top: 2rem;
   }
 }

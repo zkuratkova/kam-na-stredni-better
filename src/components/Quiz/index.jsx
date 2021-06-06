@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import { quiz } from '../../Data/quiz';
-import { useParams } from 'react-router-dom';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import QuizBtn from '../../components/QuizBtn';
 import './style.css';
 
-const Quiz = () => {
-  let { id: idLekce } = useParams();
-  idLekce = Number(idLekce);
+const Quiz = (props) => {
+  let idLekce = props.idLekce;
   const aktualniLekce = quiz[idLekce - 1];
   //funkce kliknuto na správnou odpověď
 
